@@ -1,0 +1,39 @@
+=== Innate ===
+TODO
+
+=== Divine ===
+sppr101 - Bless 		: V3, duration is 3 turns instead of 5
+sppr102 - Command 		: V3
+sppr103 - Cure light wound 	: V3
+sppr104 - Detect Evil 		: V3
+sppr105 - Entangle 		: V3 effect with vanilla save
+sppr106 - Magical Stone 	: V3 with six bullets instead of ten
+sppr107 - Protection from Evil 	: V3
+sppr108 - Remove fear 		: Vanilla
+sppr109 - Sanctuary		: V3
+sppr110 - Shillelagh		: V3
+sppr111 - Armor of faith	: Vanilla
+sppr113 - Doom			: Vanilla
+sppr114 - Faerie fire		: V3
+sppr115 - Strength of stone	: V3
+sppr116 - Sunscorch		: V3
+
+sppr201 - Aid			: V3 with reduced duration
+sppr202 - Barkskin		: V4 with AC improvement for each 4 lvl instead of 6
+sppr203 - Chant			: V3 with reduced duration
+sppr204 - Charm person or mammal: ?
+sppr205 - Find trap		: ?
+sppr206 - Flameblade		: V3
+sppr207 - Goodberry		: V3
+sppr208 - Hold person		: V3
+sppr209 - Know opponent		: ?
+sppr210 - Resist fire and cold  : Vanilla
+sppr211 - Silence		: Vanilla
+
+
+=== Arcane ===
+spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
+spwi102 - Mage armor		: V3
+spwi103 - Burning hand		: Vanilla
+spwi104 - Charm person		: Vanilla
+spwi105 - Color spray		: Use aTweaks
