@@ -37,3 +37,12 @@ spwi102 - Mage armor		: V3
 spwi103 - Burning hand		: Vanilla
 spwi104 - Charm person		: Vanilla
 spwi105 - Color spray		: Use aTweaks
+spwi106 - Blindness		: v3
+spwi107 - Friend 		: Vanilla
+spwi108 - Protection from Petri : Vanilla
+spwi110 - Identify		: Vanilla
+spwi111 - Infravision -> TrueStrike: V4
+spwi112 - Magic Missile		: Vanilla
+spwi113 - Protection from Evil  : Vanilla
+spwi114 - Shield		: V3
+

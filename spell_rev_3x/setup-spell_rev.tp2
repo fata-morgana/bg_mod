@@ -1079,35 +1079,35 @@ COPY ~spell_rev\spwi1##\spwi106.spl~     ~override~  // Blindness
 COPY ~spell_rev\spwi1##\scrl71.itm~     ~override~
   SAY NAME2 @411    SAY IDENTIFIED_DESC   @412
 
-/*COPY ~spell_rev\spwi1##\spwi107.spl~     ~override~  // Friends
-  SAY NAME1 @413    SAY UNIDENTIFIED_DESC @414
-COPY ~spell_rev\spwi1##\scrl72.itm~     ~override~
-  SAY NAME2 @413    SAY IDENTIFIED_DESC   @414*/
+//COPY ~spell_rev\spwi1##\spwi107.spl~     ~override~  // Friends
+//  SAY NAME1 @413    SAY UNIDENTIFIED_DESC @414
+//COPY ~spell_rev\spwi1##\scrl72.itm~     ~override~
+//  SAY NAME2 @413    SAY IDENTIFIED_DESC   @414
 
-COPY ~spell_rev\spwi1##\spwi108.spl~     ~override~  // Protection from Petrification
-  SAY NAME1 @415    SAY UNIDENTIFIED_DESC @416
-COPY ~spell_rev\spwi1##\scrl73.itm~     ~override~
-  SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
+//COPY ~spell_rev\spwi1##\spwi108.spl~     ~override~  // Protection from Petrification
+//  SAY NAME1 @415    SAY UNIDENTIFIED_DESC @416
+//COPY ~spell_rev\spwi1##\scrl73.itm~     ~override~
+//  SAY NAME2 @415    SAY IDENTIFIED_DESC   @416
 
-COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
-  SAY NAME1 @417    SAY UNIDENTIFIED_DESC @418
-COPY ~spell_rev\spwi1##\scrl75.itm~     ~override~
-  SAY NAME2 @417    SAY IDENTIFIED_DESC   @418
+//COPY ~spell_rev\spwi1##\spwi110.spl~     ~override~  // Identify
+//  SAY NAME1 @417    SAY UNIDENTIFIED_DESC @418
+//COPY ~spell_rev\spwi1##\scrl75.itm~     ~override~
+//  SAY NAME2 @417    SAY IDENTIFIED_DESC   @418
 
 COPY ~spell_rev\spwi1##\spwi111.spl~     ~override~  // True Strike (replaces Infravision)
   SAY NAME1 @419    SAY UNIDENTIFIED_DESC @420
 COPY ~spell_rev\spwi1##\scrl76.itm~     ~override~
   SAY NAME2 @419    SAY IDENTIFIED_DESC   @420
 
-COPY ~spell_rev\spwi1##\spwi112.spl~     ~override~  // Magic Missile
-  SAY NAME1 @421    SAY UNIDENTIFIED_DESC @422
-COPY ~spell_rev\spwi1##\scrl77.itm~     ~override~
-  SAY NAME2 @421    SAY IDENTIFIED_DESC   @422 
+//COPY ~spell_rev\spwi1##\spwi112.spl~     ~override~  // Magic Missile
+//  SAY NAME1 @421    SAY UNIDENTIFIED_DESC @422
+//COPY ~spell_rev\spwi1##\scrl77.itm~     ~override~
+//  SAY NAME2 @421    SAY IDENTIFIED_DESC   @422 
 
-COPY ~spell_rev\spwi1##\spwi113.spl~     ~override~  // Protection from Evil
-  SAY NAME1 @423    SAY UNIDENTIFIED_DESC @424
-COPY ~spell_rev\spwi1##\scrl78.itm~     ~override~
-  SAY NAME2 @423    SAY IDENTIFIED_DESC   @424
+//COPY ~spell_rev\spwi1##\spwi113.spl~     ~override~  // Protection from Evil
+//  SAY NAME1 @423    SAY UNIDENTIFIED_DESC @424
+//COPY ~spell_rev\spwi1##\scrl78.itm~     ~override~
+//  SAY NAME2 @423    SAY IDENTIFIED_DESC   @424
 
 COPY ~spell_rev\spwi1##\spwi114.spl~     ~override~  // Shield
   SAY NAME1 @425    SAY UNIDENTIFIED_DESC @426
