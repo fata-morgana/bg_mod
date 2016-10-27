@@ -1227,8 +1227,8 @@ COPY ~spell_rev\spwi1##\mepfir.itm~     ~override~
 COPY ~spell_rev\spwi1##\psdclaw.itm~     ~override~
 COPY ~spell_rev\spwi1##\quasclaw.itm~     ~override~
 
-COPY ~spell_rev\spwi1##\spwi124.spl~     ~override~  // Nahal's Reckless Dweomer
-  SAY NAME1 @441    SAY UNIDENTIFIED_DESC @442
+//COPY ~spell_rev\spwi1##\spwi124.spl~     ~override~  // Nahal's Reckless Dweomer
+//  SAY NAME1 @441    SAY UNIDENTIFIED_DESC @442
 
 /*COPY ~spell_rev\spwi1##\spwi125.spl~     ~override~  // Spook
   SAY NAME1 @443    SAY UNIDENTIFIED_DESC @444
@@ -1239,10 +1239,10 @@ COPY ~spell_rev\spwi1##\spwi125i.eff~     ~override~*/
 
 /*--------------------level 2----------------------*/
 
-COPY ~spell_rev\spwi2##\spwi201.spl~     ~override~  // Blur
-  SAY NAME1 @451    SAY UNIDENTIFIED_DESC @452
-COPY ~spell_rev\spwi2##\scrl85.itm~     ~override~
-  SAY NAME2 @451    SAY IDENTIFIED_DESC   @452
+//COPY ~spell_rev\spwi2##\spwi201.spl~     ~override~  // Blur
+//  SAY NAME1 @451    SAY UNIDENTIFIED_DESC @452
+//COPY ~spell_rev\spwi2##\scrl85.itm~     ~override~
+//  SAY NAME2 @451    SAY IDENTIFIED_DESC   @452
 
 COPY ~spell_rev\spwi2##\spwi202.spl~     ~override~  // Detect Alignment (replaces Detect Evil)
   SAY NAME1 @453    SAY UNIDENTIFIED_DESC @454
@@ -1262,15 +1262,15 @@ COPY ~spell_rev\spwi2##\scrl89.itm~     ~override~
   SAY NAME2 @457    SAY IDENTIFIED_DESC   @458
 COPY ~spell_rev\spwi2##\spwi205i.eff~     ~override~
 
-COPY ~spell_rev\spwi2##\spwi206.spl~     ~override~  // Invisibility
-  SAY NAME1 @459    SAY UNIDENTIFIED_DESC @460
-COPY ~spell_rev\spwi2##\scrl90.itm~     ~override~
-  SAY NAME2 @459    SAY IDENTIFIED_DESC   @460
+//COPY ~spell_rev\spwi2##\spwi206.spl~     ~override~  // Invisibility
+//  SAY NAME1 @459    SAY UNIDENTIFIED_DESC @460
+//COPY ~spell_rev\spwi2##\scrl90.itm~     ~override~
+//  SAY NAME2 @459    SAY IDENTIFIED_DESC   @460
 
-COPY ~spell_rev\spwi2##\spwi207.spl~     ~override~  // Knock
-  SAY NAME1 @461    SAY UNIDENTIFIED_DESC @462
-COPY ~spell_rev\spwi2##\scrl91.itm~     ~override~
-  SAY NAME2 @461    SAY IDENTIFIED_DESC   @462
+//COPY ~spell_rev\spwi2##\spwi207.spl~     ~override~  // Knock
+//  SAY NAME1 @461    SAY UNIDENTIFIED_DESC @462
+//COPY ~spell_rev\spwi2##\scrl91.itm~     ~override~
+//  SAY NAME2 @461    SAY IDENTIFIED_DESC   @462
 
 COPY ~spell_rev\spwi2##\spwi208.spl~     ~override~  // Know Opponent (replaces Know Alignment)
   SAY NAME1 @463    SAY UNIDENTIFIED_DESC @464
@@ -1283,48 +1283,48 @@ COPY ~spell_rev\spwi2##\spwi209.spl~     ~override~  // Luck
 COPY ~spell_rev\spwi2##\scrl93.itm~     ~override~
   SAY NAME2 @465    SAY IDENTIFIED_DESC   @466
 
-COPY ~spell_rev\spwi2##\spwi210.spl~     ~override~  // Resist Fear
-  SAY NAME1 @467    SAY UNIDENTIFIED_DESC @468
-COPY ~spell_rev\spwi2##\scrl94.itm~     ~override~
-  SAY NAME2 @467    SAY IDENTIFIED_DESC   @468
+//COPY ~spell_rev\spwi2##\spwi210.spl~     ~override~  // Resist Fear
+//  SAY NAME1 @467    SAY UNIDENTIFIED_DESC @468
+//COPY ~spell_rev\spwi2##\scrl94.itm~     ~override~
+//  SAY NAME2 @467    SAY IDENTIFIED_DESC   @468
 
-COPY ~spell_rev\spwi2##\spwi211.spl~     ~override~  // Melf's Acid Arrow
-  SAY NAME1 @469    SAY UNIDENTIFIED_DESC @470
-COPY ~spell_rev\spwi2##\scrl95.itm~     ~override~
-  SAY NAME2 @469    SAY IDENTIFIED_DESC   @470
+//COPY ~spell_rev\spwi2##\spwi211.spl~     ~override~  // Melf's Acid Arrow
+//  SAY NAME1 @469    SAY UNIDENTIFIED_DESC @470
+//COPY ~spell_rev\spwi2##\scrl95.itm~     ~override~
+//  SAY NAME2 @469    SAY IDENTIFIED_DESC   @470
 
-COPY ~spell_rev\spwi2##\spwi212.spl~     ~override~  // Mirror Image
-  SAY NAME1 @471    SAY UNIDENTIFIED_DESC @472
-COPY ~spell_rev\spwi2##\scrl96.itm~     ~override~
-  SAY NAME2 @471    SAY IDENTIFIED_DESC   @472
+//COPY ~spell_rev\spwi2##\spwi212.spl~     ~override~  // Mirror Image
+//  SAY NAME1 @471    SAY UNIDENTIFIED_DESC @472
+//COPY ~spell_rev\spwi2##\scrl96.itm~     ~override~
+//  SAY NAME2 @471    SAY IDENTIFIED_DESC   @472
 
-ADD_PROJECTILE ~spell_rev\projectles\dvstink.pro~
-COPY ~spell_rev\spwi2##\spwi213.spl~     ~override~  // Stinking Cloud
-  SAY NAME1 @473    SAY UNIDENTIFIED_DESC @474
-  WRITE_SHORT 0x98 %dvstink%
-  SET dvstink -= 1
-APPEND ~clearair.2da~ ~Stink Cloud             %dvstink%~
-COPY ~spell_rev\spwi2##\scrl97.itm~     ~override~
-  SAY NAME2 @473    SAY IDENTIFIED_DESC   @474
-COPY ~spell_rev\spwi2##\spwi213i.eff~     ~override~
+//ADD_PROJECTILE ~spell_rev\projectles\dvstink.pro~
+//COPY ~spell_rev\spwi2##\spwi213.spl~     ~override~  // Stinking Cloud
+//  SAY NAME1 @473    SAY UNIDENTIFIED_DESC @474
+//  WRITE_SHORT 0x98 %dvstink%
+//  SET dvstink -= 1
+//APPEND ~clearair.2da~ ~Stink Cloud             %dvstink%~
+//COPY ~spell_rev\spwi2##\scrl97.itm~     ~override~
+//  SAY NAME2 @473    SAY IDENTIFIED_DESC   @474
+//COPY ~spell_rev\spwi2##\spwi213i.eff~     ~override~
 
-COPY ~spell_rev\spwi2##\spwi214.spl~     ~override~  // Strength
-  SAY NAME1 @475    SAY UNIDENTIFIED_DESC @476
-COPY ~spell_rev\spwi2##\scrl98.itm~     ~override~
-  SAY NAME2 @475    SAY IDENTIFIED_DESC   @476
+//COPY ~spell_rev\spwi2##\spwi214.spl~     ~override~  // Strength
+//  SAY NAME1 @475    SAY UNIDENTIFIED_DESC @476
+//COPY ~spell_rev\spwi2##\scrl98.itm~     ~override~
+//  SAY NAME2 @475    SAY IDENTIFIED_DESC   @476
 
-COPY_EXISTING ~web.pro~ ~override~  // Web projectile
-  WRITE_SHORT 0x206 190
-COPY ~spell_rev\spwi2##\spwi215.spl~     ~override~  // Web
-  SAY NAME1 @477    SAY UNIDENTIFIED_DESC @478
-COPY ~spell_rev\spwi2##\scrl99.itm~     ~override~
-  SAY NAME2 @477    SAY IDENTIFIED_DESC   @478
-COPY ~spell_rev\spwi2##\spwi215i.eff~     ~override~
+//COPY_EXISTING ~web.pro~ ~override~  // Web projectile
+//  WRITE_SHORT 0x206 190
+//COPY ~spell_rev\spwi2##\spwi215.spl~     ~override~  // Web
+//  SAY NAME1 @477    SAY UNIDENTIFIED_DESC @478
+//COPY ~spell_rev\spwi2##\scrl99.itm~     ~override~
+//  SAY NAME2 @477    SAY IDENTIFIED_DESC   @478
+//COPY ~spell_rev\spwi2##\spwi215i.eff~     ~override~
 
-COPY ~spell_rev\spwi2##\spwi217.spl~     ~override~  // Agannazar's Scorcher
-  SAY NAME1 @479    SAY UNIDENTIFIED_DESC @480
-COPY ~spell_rev\spwi2##\scrl1b.itm~     ~override~
-  SAY NAME2 @479    SAY IDENTIFIED_DESC   @480
+//COPY ~spell_rev\spwi2##\spwi217.spl~     ~override~  // Agannazar's Scorcher
+//  SAY NAME1 @479    SAY UNIDENTIFIED_DESC @480
+//COPY ~spell_rev\spwi2##\scrl1b.itm~     ~override~
+//  SAY NAME2 @479    SAY IDENTIFIED_DESC   @480
 
 COPY ~spell_rev\spwi2##\spwi218.spl~     ~override~  // Ghoul Touch
   SAY NAME1 @481    SAY UNIDENTIFIED_DESC @482

@@ -45,4 +45,30 @@ spwi111 - Infravision -> TrueStrike: V4
 spwi112 - Magic Missile		: Vanilla
 spwi113 - Protection from Evil  : Vanilla
 spwi114 - Shield		: V3
+spwi115 - Shocking Grasp	: V3
+spwi116 - Sleep			: V3, change save from spell -> petrify
+spwi117 - Chill Touch		: V3 with golem+undead immune and effect (THAC0 loss) of Vanilla instead of strength penalty
+spwi118 - Chromatic Orb		: Vanilla
+spwi119 - Larloch's Minor Drain	: V3
+spwi120 - Reflect Image		: V3
+spwi123 - Find Familiar		: V3
+spwi124 - Nahal's		: Vanilla
+spwi125 - Spook			: V3 with save penalty from -4 to -6
+
+spwi201 - Blur			: Vanilla
+spwi202 - Detect Evil		: aTweak
+spwi203 - Detect Invisibility	: V3 with duration reduced from 5 rounds to 4 rounds
+spwi205 - Horror		: V4
+spwi206 - Invisibility		: Vanilla
+spwi207 - Knock			: Vanilla
+spwi208 - KnowAlign -> KnowOppo	: V3
+spwi209 - Luck			: V3, reduce duration from 5 turns to 1 turn
+spwi210 - Resist Fear		: Vanilla
+spwi211 - Melf's Acid Arrow	: Vanilla
+spwi212 - Mirror Image		: Vanilla
+spwi213 - Stinking Cloud	: Vanilla
+spwi214 - Strength		: Vanilla
+spwi215 - Web			: Vanilla + aTweak
+spwi217 - Agannazar's		: Vanilla
+spwi218 - Ghoul touch		: V3 with no -1 saving throw penalty
 

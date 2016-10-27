@@ -192,7 +192,7 @@ Casting Time: 1
 Area of Effect: Special
 Saving Throw: Special
 
-When the caster completes this spell, a blue glow encompasses his hand. This energy attacks the life force of any living creature upon which the wizard makes a successful melee attack. The touched creature suffers 1d6 points of cold damage and loses one point of strength for 1 hour (no ability drain if the victim saves vs. death). The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
+When the caster completes this spell, a blue glow encompasses his hand. This energy attacks the life force of any living creature upon which the wizard makes a successful melee attack. The touched creature suffers 1d6 points of cold damage instantly and receive a -2 THAC0 penalty for 5 rounds if the victim saves vs. death. The wizard gains a +4 bonus to hit the target and his touch is considered to be of +1 enchantment to determine what it can hit.~
 
 @433=~Chromatic Orb~
 @434=~Chromatic Orb
@@ -303,7 +303,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: Special
 
-A Spook spell enables the wizard to play upon natural fears to cause the target creature to perceive the spellcaster as someone or something inimical which then appears to advance upon it in a threatening manner. If the creature does not make a successful saving throw vs. spell, it turns and flees at maximum speed as far from the wizard as possible. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra experience levels of the caster, to a maximum of -4 at 9th level. Although the caster does not actually pursue the fleeing creature, a phantasm from its own mind does. Undead creatures, certain powerful creatures who can easily discern the illusion, such as dragons, and those with no intelligence score are unaffected by this spell, as are creatures under the effect of a True Seeing spell.~
+A Spook spell enables the wizard to play upon natural fears to cause the target creature to perceive the spellcaster as someone or something inimical which then appears to advance upon it in a threatening manner. If the creature does not make a successful saving throw vs. spell, it turns and flees at maximum speed as far from the wizard as possible. The creature has a saving throw penalty of -1 (to save against this spell) for every two extra experience levels of the caster, to a maximum of -6 at 13th level. Although the caster does not actually pursue the fleeing creature, a phantasm from its own mind does. Undead creatures, certain powerful creatures who can easily discern the illusion, such as dragons, and those with no intelligence score are unaffected by this spell, as are creatures under the effect of a True Seeing spell.~
 
 @1008=~This is your cat familiar, currently curled up and safe within your backpack. The cat familiar is a master scout, able to move in the shadows with the ability of a master thief. It is also difficult to hit in combat, and the magic of your bond has made this cat resistant to both physical and magical attacks.
 
@@ -640,7 +640,7 @@ This spell allows the wizard to search out the feelings of all creatures within 
 Level: 2
 School: Divination
 Range: Personal
-Duration: 5 rounds
+Duration: 4 rounds
 Casting Time: 2
 Area of Effect: 50' radius
 Saving Throw: None
@@ -657,7 +657,7 @@ Casting Time: 2
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
-When this spell is cast, all enemies within the area of effect must save vs. spell at -1 or flee in terror. Certain creatures are immune to the effects of fear, including all undead.~
+When this spell is cast, all enemies within the area of effect must save vs. spell or flee in terror. Certain creatures are immune to the effects of fear, including all undead.~
 
 @459=~Invisibility~
 @460=~Invisibility
@@ -691,16 +691,16 @@ Range: Long
 Duration: 2 turns
 Casting Time: 1 round
 Area of Effect: 1 creature
-Saving Throw: None
+Saving Throw: Neg.
 
-When this spell is cast, the wizard's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
+When this spell is cast, the wizard's eyes glow with magical energy, enabling him to read the aura of a creature, and determine the creature's strengths and weaknesses. If that creature saves vs spell, the wizard knows nothing. For the duration of the spell, the target's physical resistances are lowered by 10% and all attacks against the target creature are made with a +2 bonus to the attack roll. The creature THAC0 is also reduced by 2. Certain magical devices negate the power of the Know Opponent spell, and the spell has no effect on creatures who don't emanate auras, such as constructs. Magic resistance does not affect this spell.~
 
 @465=~Luck~
 @466=~Luck
 Level: 2
 School: Enchantment
 Range: Medium
-Duration: 5 turns
+Duration: 1 turn
 Casting Time: 2
 Area of Effect: 1 creature
 Saving Throw: None
