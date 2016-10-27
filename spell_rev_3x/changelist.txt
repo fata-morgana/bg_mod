@@ -1,0 +1,74 @@
+=== Innate ===
+TODO
+
+=== Divine ===
+sppr101 - Bless 		: V3, duration is 3 turns instead of 5
+sppr102 - Command 		: V3
+sppr103 - Cure light wound 	: V3
+sppr104 - Detect Evil 		: V3
+sppr105 - Entangle 		: V3 effect with vanilla save
+sppr106 - Magical Stone 	: V3 with six bullets instead of ten
+sppr107 - Protection from Evil 	: V3
+sppr108 - Remove fear 		: Vanilla
+sppr109 - Sanctuary		: V3
+sppr110 - Shillelagh		: V3
+sppr111 - Armor of faith	: Vanilla
+sppr113 - Doom			: Vanilla
+sppr114 - Faerie fire		: V3
+sppr115 - Strength of stone	: V3
+sppr116 - Sunscorch		: V3
+
+sppr201 - Aid			: V3 with reduced duration
+sppr202 - Barkskin		: V4 with AC improvement for each 4 lvl instead of 6
+sppr203 - Chant			: V3 with reduced duration
+sppr204 - Charm person or mammal: ?
+sppr205 - Find trap		: ?
+sppr206 - Flameblade		: V3
+sppr207 - Goodberry		: V3
+sppr208 - Hold person		: V3
+sppr209 - Know opponent		: ?
+sppr210 - Resist fire and cold  : Vanilla
+sppr211 - Silence		: Vanilla
+
+
+=== Arcane ===
+spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
+spwi102 - Mage armor		: V3
+spwi103 - Burning hand		: Vanilla
+spwi104 - Charm person		: Vanilla
+spwi105 - Color spray		: Use aTweaks
+spwi106 - Blindness		: v3
+spwi107 - Friend 		: Vanilla
+spwi108 - Protection from Petri : Vanilla
+spwi110 - Identify		: Vanilla
+spwi111 - Infravision -> TrueStrike: V4
+spwi112 - Magic Missile		: Vanilla
+spwi113 - Protection from Evil  : Vanilla
+spwi114 - Shield		: V3
+spwi115 - Shocking Grasp	: V3
+spwi116 - Sleep			: V3, change save from spell -> petrify
+spwi117 - Chill Touch		: V3 with golem+undead immune and effect (THAC0 loss) of Vanilla instead of strength penalty
+spwi118 - Chromatic Orb		: Vanilla
+spwi119 - Larloch's Minor Drain	: V3
+spwi120 - Reflect Image		: V3
+spwi123 - Find Familiar		: V3
+spwi124 - Nahal's		: Vanilla
+spwi125 - Spook			: V3 with save penalty from -4 to -6
+
+spwi201 - Blur			: Vanilla
+spwi202 - Detect Evil		: aTweak
+spwi203 - Detect Invisibility	: V3 with duration reduced from 5 rounds to 4 rounds
+spwi205 - Horror		: V4
+spwi206 - Invisibility		: Vanilla
+spwi207 - Knock			: Vanilla
+spwi208 - KnowAlign -> KnowOppo	: V3
+spwi209 - Luck			: V3, reduce duration from 5 turns to 1 turn
+spwi210 - Resist Fear		: Vanilla
+spwi211 - Melf's Acid Arrow	: Vanilla
+spwi212 - Mirror Image		: Vanilla
+spwi213 - Stinking Cloud	: Vanilla
+spwi214 - Strength		: Vanilla
+spwi215 - Web			: Vanilla + aTweak
+spwi217 - Agannazar's		: Vanilla
+spwi218 - Ghoul touch		: V3 with no -1 saving throw penalty
+
