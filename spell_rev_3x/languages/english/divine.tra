@@ -10,8 +10,8 @@ Level: 1
 School: Enchantment
 Sphere: All
 Range: Long
-Duration: 5 turns
-Casting Time: 5
+Duration: 3 turns
+Casting Time: 9
 Area of Effect: 30' radius
 Saving Throw: None
 
@@ -67,7 +67,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: Breath partial
 
-By means of this spell, the caster causes plants to entangle all creatures in the area of effect. The grasses, weeds, bushes, and even trees wrap, twist, and entwine about the creatures, holding them fast for the duration of the spell. Those held receive a -2 penalty to attack rolls and a +2 penalty to AC. Creatures that make a successful saving throw vs. breath temporarily avoid entanglement and can move at half speed through the area, but must make additional saving throws each round they remain in the area of effect. An entangled creature can attack, provided it does not have to move to reach an opponent. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large and strong creatures who suffer little to no distress from the entangling plants.~
+By means of this spell, the caster causes plants to entangle all creatures in the area of effect. The grasses, weeds, bushes, and even trees wrap, twist, and entwine about the creatures, holding them fast for the duration of the spell. Those held receive a -2 penalty to attack rolls and a +2 penalty to AC. Creatures that make a successful save vs. Spell with a +3 bonus temporarily avoid entanglement and can move at half speed through the area, but must make additional saving throws each round they remain in the area of effect. An entangled creature can attack, provided it does not have to move to reach an opponent. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large and strong creatures who suffer little to no distress from the entangling plants.~
 
 @11=~Magical Stone~
 @12=~Magical Stone
@@ -80,7 +80,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-Using this spell, the priest can temporarily enchant ten small stones, no larger than sling bullets. The character using them can then hurl up to three stones per round at an opponent, with a +1 bonus to attack rolls. Each stone that hits inflicts 1d4+2 points of damage (1d4+5 against undead), and is considered to be of +1 enchantment to determine what it can hit. The magic in each stone expires after one hour or when used.~
+Using this spell, the priest can temporarily enchant six small stones, no larger than sling bullets. The character using them can then hurl up to three stones per round at an opponent, with a +1 bonus to attack rolls. Each stone that hits inflicts 1d4+2 points of damage (1d4+5 against undead), and is considered to be of +1 enchantment to determine what it can hit. The magic in each stone expires after one hour or when used.~
 
 @1030=~This stone has been enchanted by the Magical Stone spell.~
 
@@ -95,7 +95,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: None
 
-When this spell is cast, it creates a magical barrier around the recipient at a distance of one foot. The barrier moves with the recipient and has two major effects: first, all attacks made by evil creatures against the protected creature receive a -2 penalty to their attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
+When this spell is cast, it creates a magical barrier around the recipient at a distance of one foot. The barrier moves with the recipient and has two major effects: first, all attacks made by evil creatures against the protected creature receive a -2 penalty to their attack roll. Second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
 
 @15=~Resist Fear~
 @16=~Resist Fear
@@ -134,7 +134,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-This spell enables the caster to create a magical cudgel. The shillelagh inflicts 1d6+1 points of damage on a successful hit and causes tendrils to wrap around and hold the defender in place for one round unless a save vs. breath is made. The character using the shillelagh wields it as if it was a club, but suffers no penalty for non-proficiency. At level 1, it functions as a magical weapon with an enchantment bonus of +1. For every six experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 12th-level caster. The shillelagh can be used only by the caster, and remains in his hand for the duration of the spell or until dispelled.~
+This spell enables the caster to create a magical cudgel. The shillelagh inflicts 2d4+1 points of damage on a successful hit and causes tendrils to wrap around and hold the victim in place for one round unless a save vs. breath is made. The caster wields the shillelagh as if proficient with the weapon, at his normal THAC0. At level 1, it functions as a magical weapon with an enchantment bonus of +1. For every other four experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 9th-level caster. The shillelagh can be used only by the caster, and remains in his hand for the duration of the spell or until dispelled.~
 
 @21=~Armor of Faith~
 @22=~Armor of Faith
@@ -221,7 +221,7 @@ Level: 2
 School: Necromancy
 Sphere: Combat, Necromantic
 Range: Touch
-Duration: 1 turn/level
+Duration: 3 turns + 1 turn/4 levels
 Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
@@ -234,12 +234,12 @@ Level: 2
 School: Alteration
 Sphere: Plant
 Range: Touch
-Duration: 1 turn/level
+Duration: 5 turns
 Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-When a priest casts the Barkskin spell upon a creature, its skin becomes as tough as bark, improving its Armor Class by 1, plus 1 AC for every three levels of the caster (up to a maximum of +4 AC at 9th level). Multiple castings of this spell are not cumulative.~
+When a priest casts the Barkskin spell upon a creature, its skin becomes as tough as bark, improving its Armor Class by 2, plus 1 AC for every other four levels of the caster (up to a maximum of +4 AC at 11th level). Multiple castings of this spell are not cumulative.~
 
 @35=~Chant~
 @36=~Chant
@@ -267,7 +267,7 @@ Saving Throw: Spell negates
 
 This spell affects any single person or animal it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as dwarves, elves, gnolls, gnomes, half-elves, halflings, half-orcs, hobgoblins, kobolds, and others. Only normal and giant sized animals are affected by this spell. Monsters such as wyverns, ankhegs, and carrion crawlers do not count as animals.
 
-The target receives a saving throw vs. spell at -1 to avoid the effect. If the recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible. If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
+The target receives a saving throw vs. spell at +1 to avoid the effect. If the recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The caster may give him orders, and the charmed creature will carry them out as quickly as possible. If the caster harms, or attempts to harm, the charmed creature by some overt action, or if a dispel magic spell is successfully cast upon the charmed creature, the charm spell is broken. If two or more charm effects simultaneously affect a creature, the most recent charm takes precedence.~
 
 @39=~Find Traps~
 @40=~Find Traps
@@ -293,7 +293,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. This blade-like ray is wielded as if it was a scimitar, but the character using it will suffer no penalty for non-proficiency. The blade deals 1d8 points of fire damage plus 1 for every level of the caster (up to a maximum of 1d8+10). Since the blade is immaterial, strength modifiers do not apply to attack rolls or damage, and attacks with the flame blade are considered melee touch attacks (+4 attack roll bonus). The blade is considered to be of +1 enchantment when determining what it can hit. A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.~
+With this spell, the caster causes a blazing ray of red-hot fire to spring forth from his hand. This blade-like ray is wielded as if as if proficient with the weapon, at his normal THAC0. The blade deals 1d8 points of fire damage plus 1 for every level of the caster (up to a maximum of 1d8+10). Since the blade is immaterial, strength modifiers do not apply to attack rolls or damage, and attacks with the flame blade are considered melee touch attacks (+4 attack roll bonus). The blade is considered to be of +1 enchantment when determining what it can hit. A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.~
 
 @43=~Goodberry~
 @44=~Goodberry
@@ -915,10 +915,10 @@ HP 42, AC 3, THAC0 15, Saving Throws 7/10/7/10/7
 1 Attack Per Round, 1d4 Crushing (Touch +0)
 
 Spell Memorized:
-1° Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
-2° Barkskin, Charm Person or Animal (x2), Resist Fire and Cold, Slow Poison
-3° Call Lightning, Hold Person or Animal, Summon Insects
-4° Animal Summoning I~
+1\B0 Cure Light Wounds (x2), Entangle (x2), Shillelagh, Doom
+2\B0 Barkskin, Charm Person or Animal (x2), Resist Fire and Cold, Slow Poison
+3\B0 Call Lightning, Hold Person or Animal, Summon Insects
+4\B0 Animal Summoning I~
 
 @131=~Poison~
 @132=~Poison
@@ -2107,13 +2107,13 @@ Cold & Electrical Resistance 100%; Fire Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Known Spells:
-1° Bless (x3), Resist Fear (x3)
-2° Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
-3° Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
-4° Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
-5° Mass Cure, Raise Dead, True Seeing
-6° Blade Barrier, Heal
-7° Holy Word~
+1\B0 Bless (x3), Resist Fear (x3)
+2\B0 Aid (x3), Find Trap, Know Opponent, Draw upon Divine Might
+3\B0 Cure Disease (x2), Holy Smite (x2), Break Enchantment (x2)
+4\B0 Cure Critical Wounds (x2), Neutralize Poison (x2), Magic Circle against Evil
+5\B0 Mass Cure, Raise Dead, True Seeing
+6\B0 Blade Barrier, Heal
+7\B0 Holy Word~
 
 @283=~Summon Fallen Deva~
 @284=~Summon Fallen Deva 
@@ -2143,13 +2143,13 @@ Fire & Electrical Resistance 100%; Acid Resistance 50%; Magic Resistance 70%
 Slashing, Crushing, Piercing, & Missile Resistance 10%
 
 Known Spells:
-1° Doom (x3), Resist Fear (x3)
-2° Hold Person (x3), Find Trap, Know Opponent, Silence
-3° Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
-4° Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
-5° Flame Strike, Greater Command, True Seeing
-6° Blade Barrier, Harm
-7° Unholy Word~
+1\B0 Doom (x3), Resist Fear (x3)
+2\B0 Hold Person (x3), Find Trap, Know Opponent, Silence
+3\B0 Contagion (x2), Unholy Blight (x2), Break Enchantment (x2)
+4\B0 Cause Critical Wounds (x2), Poison (x2), Cloak of Fear
+5\B0 Flame Strike, Greater Command, True Seeing
+6\B0 Blade Barrier, Harm
+7\B0 Unholy Word~
 
 @285=~Implosion~
 @286=~Implosion
