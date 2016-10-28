@@ -15,8 +15,8 @@ sppr110 - Shillelagh		: V3
 sppr111 - Armor of faith	: Vanilla
 sppr113 - Doom			: Vanilla
 sppr114 - Faerie fire		: V3
-sppr115 - Strength of stone	: V3
-sppr116 - Sunscorch		: V3
+sppr115 - Strength of stone	: V3 Add
+sppr116 - Sunscorch		: V3 Add
 
 sppr201 - Aid			: V3 with reduced duration
 sppr202 - Barkskin		: V4 with AC improvement for each 4 lvl instead of 6
@@ -96,7 +96,34 @@ spwi312 - Slow			: Vanilla
 spwi313 - Skull Trap		: V3 with save w. spell instead of breath, return range to 30 from 20
 spwi314 - Vampiric Touch	: V3
 spwi316 - Dire Charm		: V3
-spwi317 - Ghost Armor		: V3
+spwi317 - Ghost Armor		: Vanilla
 spwi318 - Minor Spell Deflection: Vanilla
+spwi319 - Protection from fire	: Vanilla
+spwi320 - Protection from cold	: Vanilla
+spwi321 - Spell Thrust		: Vanilla
+spwi322 - Detect Illustion	: Vanilla
+spwi324 - Hold Undead		: Vanilla
+spwi325 - Melf's Minute Meteor	: Vanilla
+spwi326 - Dispel magic		: Vanilla
+
+spwi401 - Confusion		: Vanilla
+spwi402 - Dimension door	: Vanilla
+spwi403 - Fireshield (blue)	: V3
+spwi404 - Ice storm		: V3
+spwi405 - Improve Invisibility	: Vanilla
+spwi406 - M.Globe of Invul	: Vanilla
+spwi407 - Monster summonning II : V3, scale each 3 level instead of 2
+spwi408 - Stoneskin		: Vanilla
+spwi409 - Contagion		: V4, with scaling saving throw bonus
+spwi410 - Re curse -> brk enchant: V4
+spwi411 - Emotion: Hopelessness	: Vanilla
+spwi412 - Greater Malison	: Vanilla
+spwi413 - Otiluke		: V4
+spwi414 - Spirit Armor		: V3
+spwi415 - Polymorph Other	: V3
+spwi416 - Polymorph Self	: Vanilla
+spwi417 - Enchant Weapon	: V3
+spwi418 - Fireshield (Red)	: V3
+spwi419 - Secret Word		: Vanilla
 
 

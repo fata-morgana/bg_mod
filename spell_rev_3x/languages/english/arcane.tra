@@ -1346,7 +1346,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: Death negates
 
-This spell causes a major disease and weakness in a creature. The afflicted individual is immediately stricken with painful and distracting symptoms: boils, blotches, lesions, seeping abscesses, and so on. Strength, dexterity, constitution, and charisma are reduced by 2, and the afflicted character is slowed. The target of this spell must make a saving throw vs. poison at -3 to avoid being infected, or the spell will persist until the creature receives a Cure Disease spell or the spell duration expires.~
+This spell causes a major disease and weakness in a creature. Every 2 rounds the afflicted individual must make a saving throw vs. poison at -2 on the first round, no penalty on the 3rd round, +2 bonus on the fifth round, and +4 bonus on the seventh round. Anytime he fails, he suffers additional -2 penalty to strength, dexterity, constitution, and charisma (up to -8 to all stats). The effects of this spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
 
 @579=~Break Enchantment~
 @580=~Break Enchantment
@@ -1358,7 +1358,7 @@ Casting Time: 4
 Area of Effect: 1 creature
 Saving Throw: None
 
-Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of confusion and feeblemindedness, free a victim from magical sleep, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
+Upon casting this spell, the mage is able to free a victim from enchantments and curses. The spell can reverse the effects of charm, confusion and feeblemindedness, free a victim from magical sleep or charm, and break the effects of a curse. Note that Break Enchantment cannot remove the curse from a cursed shield, weapon, or suit of armor, for example, but allows those afflicted with any such cursed item to get rid of it. Certain special curses may not be countered by this spell, or may be countered only by a caster of a certain level or through a particular ritual.~
 
 @581=~Emotion: Despair~
 @582=~Emotion: Despair
