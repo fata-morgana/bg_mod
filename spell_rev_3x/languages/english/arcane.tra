@@ -777,7 +777,7 @@ Casting Time: 5
 Area of Effect: 20' radius
 Saving Throw: Breath negates
 
-A Web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. The Web spell covers a maximum area of about 20 feet in radius. Creatures caught within webs, or simply touching them, become stuck among the gluey fibers. Everyone in the area when the spell is cast must roll a saving throw vs. breath with a -1 penalty. If the saving throw is successful, then the creature is free to move out of the area. A failed saving throw means the creature is stuck in the webs, unable to move. Each round that a creature remains in the web, he must make a saving throw or be unable to move. Incorporeal and flying creatures are unaffected by this spell, as are spiders and exceptionally large and strong creatures who suffer little to no distress from the webs.~
+A Web spell creates a many-layered mass of strong, sticky strands similar to spider webs but far larger and tougher. The Web spell covers a maximum area of about 20 feet in radius. Creatures caught within webs, or simply touching them, become stuck among the gluey fibers. Everyone in the area when the spell is cast must roll a saving throw vs. spell with a -2 penalty. If the saving throw is successful, then the creature is free to move out of the area. A failed saving throw means the creature is stuck in the webs, unable to move. Each round that a creature remains in the web, he must make a saving throw or be unable to move. Incorporeal and flying creatures are unaffected by this spell, as are spiders and exceptionally large and strong creatures who suffer little to no distress from the webs.~
 
 @479=~Agannazar's Scorcher~
 @480=~Agannazar's Scorcher
@@ -825,7 +825,7 @@ Casting Time: 1
 Area of Effect: 1 creature
 Saving Throw: Spell negates
 
-When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell at a -1 penalty to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
+When a wizard utters this power word, he causes a comatose slumber to come upon one creature. Creatures who currently have 20 or more hit points can save vs. spell to avoid the effects, but those with 1 to 19 hit points are powerless to resist. Elves and half-elves are particularly resistant to sleep effects, while the undead and certain other creatures such as dragons and elementals are completely immune to magically induced sleep.~
 
 @487=~Ray of Enfeeblement~
 @488=~Ray of Enfeeblement
@@ -998,14 +998,11 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-By means of this spell, the caster summons a number of hobgoblins, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell.
+By means of this spell, the caster summons a number of monsters, which serve the mage under any conditions. The type and number of creatures that appear depend upon the level of the wizard casting the spell. The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
 
 5th : 2 hobgoblins
-7th : 3 hobgoblins
-9th : 4 hobgoblins
-12th+ : 4 hobgoblins, 1 shaman
-
-The summoned creatures will remain under the wizard's control until they are slain or the spell duration expires.
+8th : 3 hobgoblins
+11th+ : 3 hobgoblins, 1 shaman
 
 Hobgoblin Archer (3 Hit Dice):
 STR 11, DEX 14, CON 13, INT 8, WIS 10, CHA 8;  AL Lawful Evil
@@ -1067,10 +1064,10 @@ School: Necromancy
 Range: Medium
 Duration: Special
 Casting Time: 3
-Area of Effect: 20' radius
+Area of Effect: 30' radius
 Saving Throw: Breath half
 
-Upon casting this spell, a skull is thrown by the caster at the target area. The skull floats in the area until a creature comes within 15 feet of it. When this happens, the skull is triggered and explodes, damaging everyone within a 20 foot radius. The explosion deals 1d4 points of magic damage per level of the caster (up to a maximum of 20d4), with a save vs. breath at -2 allowed for half damage. When casting this spell, it is wise to set it far away from the party, lest they set it off accidentally.~
+Upon casting this spell, a skull is thrown by the caster at the target area. The skull floats in the area until a creature comes within 15 feet of it. When this happens, the skull is triggered and explodes, damaging everyone within a 30 foot radius. The explosion deals 1d4 points of magic damage per level of the caster (up to a maximum of 20d4), with a save vs. spell at -2 allowed for half damage. When casting this spell, it is wise to set it far away from the party, lest they set it off accidentally.~
 
 @527=~Vampiric Touch~
 @528=~Vampiric Touch
