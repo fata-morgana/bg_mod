@@ -617,18 +617,18 @@ Saving Throw: Spell negates
 
 Miscast Magic causes spells cast by the affected creature to take on an effect different from what they intend, similar to what happens during a wild surge. There is a chance that the result will be beneficial to the spellcaster, but generally, the effects are undesirable. The target must make save vs. spell at -2 to negate the spell's effects. Those who fail the save will miscast any spells cast in the next round, and each round after the first must make another save to avoid miscasting for one further round. The effects of the spell last for 5 rounds, or until dispelled.~
 
-@91=~Contagion~
-@92=~Contagion
+@91=~Rigid Thinking ~
+@92=~Rigid Thinking 
 Level: 3
-School: Necromancy
-Sphere: Necromantic
-Range: Short
-Duration: 8 hours
-Casting Time: 3
-Area of Effect: 1 creature
-Saving Throw: Poison negates
+School: Enchantment/Charm
+Sphere: Law
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 5 
+Area of Effect: 1 person or mammal 
+Saving Throw: Neg. 
 
-This spell causes a major disease and weakness in a creature. The afflicted individual is immediately stricken with painful and distracting symptoms: boils, blotches, lesions, seeping abscesses, and so on. Strength, dexterity, constitution, and charisma are reduced by 2, and the afflicted character is slowed. The target of this spell must make a saving throw vs. poison at -2 to avoid being infected, or the spell will persist until the creature receives a Cure Disease spell, or the spell duration expires.~
+The target of this spell must make a Saving Throw vs. Spell with -4 penalty or come under its effects. When under the effects of the Rigid Thinking spell, the victim will randomly wander, attack the nearest person, or stand confused.
 
 @93=~Strength of One~
 @94=~Strength of One
@@ -710,7 +710,7 @@ Saving Throw: Special
 
 The Summon Insects spell attracts a cloud or swarm of normal insects to attack one enemy of the caster. This swarm gathers at a point chosen by the caster, within the spell's range, and attacks a single creature the caster points to.
 
-For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, has a 100% chance of spell failure, and must make saving throws vs. death or run away in fear. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty.~
+For the duration of the spell, the affected creature fights with a -2 penalty to attack rolls and armor class. In addition, each round the victim suffers 2d3 points of damage from insect bites, and has a 50% chance of spell failure. If a successful save vs. breath at -2 is made, the target manages to avoid most of the swarm, reducing damage from bites by half and completely negating the spell failure penalty. Magic resistance does not affect this spell.~
 
 @105=~Repulse Undead~
 @106=~Repulse Undead
@@ -755,14 +755,14 @@ When casting this spell, and laying his hand upon a creature, the priest causes 
 @1110=~Storm Shield
 Level: 3
 School: Abjuration
-Sphere: Weather
+Sphere: Weather, Elemental (Air)
 Range: Personal
 Duration: 1 turn
 Casting Time: 5
 Area of Effect: Caster
 Saving Throw: None
 
-This spell surrounds the caster with a dark shell of disruptive energy that moves with him. The storm shell grants 50% resistance to fire, cold, and electricity. Non-magical missiles cannot penetrate the barrier.~
+This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
 
 
 /*------------------level 4------------------*/

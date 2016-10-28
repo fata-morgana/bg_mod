@@ -15,8 +15,8 @@ sppr110 - Shillelagh		: V3
 sppr111 - Armor of faith	: Vanilla
 sppr113 - Doom			: Vanilla
 sppr114 - Faerie fire		: V3
-sppr115 - Strength of stone	: V3 Add
-sppr116 - Sunscorch		: V3 Add
+sppr115 - Strength of stone	: V3 Added
+sppr116 - Sunscorch		: V3 Added
 
 sppr201 - Aid			: V3 with reduced duration
 sppr202 - Barkskin		: V4 with AC improvement for each 4 lvl instead of 6
@@ -31,6 +31,35 @@ sppr210 - Resist fire and cold  : Vanilla
 sppr211 - Silence		: Vanilla
 sppr212 - Slow Poison		: Vanilla
 sppr213 - Spiritual Hammer	: V3
+sppr214 - DUHM			: V4 with cap at +4
+sppr215 - Cure Moderate Wound	: V3
+sppr216 - Fire trap		: V4 added
+
+sppr301 - Animate Dead		: V3
+sppr302 - Call Lightning	: V3, with scaling damage, and save from breath to spell
+sppr303 - Dispel magic		: Vanilla
+sppr304 - Glyph of warding	: Vanilla
+sppr305 - Hold Person or Animal	: V3
+sppr306 - Pro. from Fire	: Vanilla
+sppr307 - Re Curse -> Brk Enchnt: V4
+sppr308 - Remove Paralysis	: V3
+sppr309 - Invisibility Purge	: Vanilla
+sppr310 - Miscast Magic		: Vanilla
+sppr311 - Rigid thinking	: Vanilla with -4 save penalty
+sppr312 - Strength of one	: V3
+sppr313 - Holy Smite		: Vanilla
+sppr314 - Unholy Blight		: Vanilla
+sppr315 - Cure Serious Wound	: V3
+sppr317 - Cure Disease		: Vanila
+sppr318 - Sweet Air -> GustOfWInd:V3
+sppr319 - Summon Insect		: V4, reduce failure chance from 100 to 50
+sppr322 - Storm Shield		: V4
+sppr324 - Magic Fang		: V4 added
+sppr325 - Spike Growth		: V4 added
+sppr326 - Icelance		: V4 added
+
+(sppr323 - Cause Serious Wound is not analysed yet)
+
 
 
 
