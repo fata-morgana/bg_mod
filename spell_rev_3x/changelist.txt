@@ -5,7 +5,7 @@ TODO
 sppr101 - Bless 		: V3, duration is 3 turns instead of 5
 sppr102 - Command 		: V3
 sppr103 - Cure light wound 	: V3
-sppr104 - Detect Evil 		: V3
+sppr104 - Detect Evil 		: aTweaks
 sppr105 - Entangle 		: V3 effect with vanilla save
 sppr106 - Magical Stone 	: V3 with six bullets instead of ten
 sppr107 - Protection from Evil 	: V3
@@ -21,14 +21,17 @@ sppr116 - Sunscorch		: V3
 sppr201 - Aid			: V3 with reduced duration
 sppr202 - Barkskin		: V4 with AC improvement for each 4 lvl instead of 6
 sppr203 - Chant			: V3 with reduced duration
-sppr204 - Charm person or mammal: ?
-sppr205 - Find trap		: ?
+sppr204 - Charm person or mammal: V3
+sppr205 - Find trap		: Vanilla
 sppr206 - Flameblade		: V3
 sppr207 - Goodberry		: V3
 sppr208 - Hold person		: V3
-sppr209 - Know opponent		: ?
+sppr209 - Know opponent		: V3
 sppr210 - Resist fire and cold  : Vanilla
 sppr211 - Silence		: Vanilla
+sppr212 - Slow Poison		: Vanilla
+sppr213 - Spiritual Hammer	: V3
+
 
 
 === Arcane ===
@@ -36,7 +39,7 @@ spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
 spwi102 - Mage armor		: V3
 spwi103 - Burning hand		: Vanilla
 spwi104 - Charm person		: Vanilla
-spwi105 - Color spray		: Use aTweaks
+spwi105 - Color spray		: aTweaks
 spwi106 - Blindness		: v3
 spwi107 - Friend 		: Vanilla
 spwi108 - Protection from Petri : Vanilla

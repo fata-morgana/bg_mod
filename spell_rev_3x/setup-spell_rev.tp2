@@ -295,11 +295,11 @@ COPY ~spell_rev\sppr1##\mstone.eff~     ~override~
 COPY ~spell_rev\sppr1##\sppr107.spl~     ~override~  // Protection From Evil
   SAY NAME1 @13    SAY UNIDENTIFIED_DESC @14
 
-COPY ~spell_rev\sppr1##\sppr108.spl~     ~override~  // Resist Fear
-  SAY NAME1 @15    SAY UNIDENTIFIED_DESC @16
+//COPY ~spell_rev\sppr1##\sppr108.spl~     ~override~  // Resist Fear
+// SAY NAME1 @15    SAY UNIDENTIFIED_DESC @16
 
-COPY ~spell_rev\sppr1##\sppr109.spl~     ~override~  // Sanctuary
-  SAY NAME1 @17    SAY UNIDENTIFIED_DESC @18
+//COPY ~spell_rev\sppr1##\sppr109.spl~     ~override~  // Sanctuary
+//  SAY NAME1 @17    SAY UNIDENTIFIED_DESC @18
 
 COPY ~spell_rev\sppr1##\sppr110.spl~     ~override~  // Shillelagh
   SAY NAME1 @19    SAY UNIDENTIFIED_DESC @20
@@ -309,11 +309,11 @@ COPY ~spell_rev\sppr1##\shille3.itm~     ~override~
 COPY ~spell_rev\sppr1##\dvshille.spl~     ~override~
 COPY ~spell_rev\sppr1##\dvshille.eff~     ~override~
 
-COPY ~spell_rev\sppr1##\sppr111.spl~     ~override~  // Armor Of Faith
-  SAY NAME1 @21    SAY UNIDENTIFIED_DESC @22
+//COPY ~spell_rev\sppr1##\sppr111.spl~     ~override~  // Armor Of Faith
+//  SAY NAME1 @21    SAY UNIDENTIFIED_DESC @22
 
-/*COPY ~spell_rev\sppr1##\sppr113.spl~     ~override~  // Doom
-  SAY NAME1 @23    SAY UNIDENTIFIED_DESC @24*/
+//COPY ~spell_rev\sppr1##\sppr113.spl~     ~override~  // Doom
+//  SAY NAME1 @23    SAY UNIDENTIFIED_DESC @24
 
 ADD_PROJECTILE ~spell_rev\projectles\dvffire.pro~
 COPY ~spell_rev\sppr1##\sppr114.spl~     ~override~  // Faerie Fire (new druid spell)
@@ -356,16 +356,16 @@ COPY ~spell_rev\sppr2##\sppr201.spl~     ~override~  // Aid
 COPY ~spell_rev\sppr2##\sppr202.spl~     ~override~  // Barkskin
   SAY NAME1 @33    SAY UNIDENTIFIED_DESC @34
 
-COPY ~spell_rev\sppr2##\sppr203.spl~     ~override~  // Chant
-  SAY NAME1 @35    SAY UNIDENTIFIED_DESC @36
-COPY ~spell_rev\sppr2##\sppr203d.spl~     ~override~
+//COPY ~spell_rev\sppr2##\sppr203.spl~     ~override~  // Chant
+//  SAY NAME1 @35    SAY UNIDENTIFIED_DESC @36
+//COPY ~spell_rev\sppr2##\sppr203d.spl~     ~override~
 
 COPY ~spell_rev\sppr2##\sppr204.spl~     ~override~  // Charm Person or Mammal
   SAY NAME1 @37    SAY UNIDENTIFIED_DESC @38
 
-COPY ~spell_rev\sppr2##\sppr205.spl~     ~override~  // Find Traps
-  SAY NAME1 @39    SAY UNIDENTIFIED_DESC @40
-COPY ~spell_rev\sppr2##\sppr205d.spl~     ~override~
+//COPY ~spell_rev\sppr2##\sppr205.spl~     ~override~  // Find Traps
+//  SAY NAME1 @39    SAY UNIDENTIFIED_DESC @40
+//COPY ~spell_rev\sppr2##\sppr205d.spl~     ~override~
 
 COPY ~spell_rev\sppr2##\sppr206.spl~     ~override~  // Flame Blade
   SAY NAME1 @41    SAY UNIDENTIFIED_DESC @42
@@ -397,27 +397,27 @@ COPY ~spell_rev\sppr2##\gberry5.itm~     ~override~
 COPY ~spell_rev\sppr2##\gberry6.itm~     ~override~
   SAY NAME1 @43    SAY NAME2 @43    SAY UNIDENTIFIED_DESC @1038
 
-COPY ~spell_rev\sppr2##\sppr208.spl~     ~override~  // Hold Person
-  SAY NAME1 @45    SAY UNIDENTIFIED_DESC @46
+//COPY ~spell_rev\sppr2##\sppr208.spl~     ~override~  // Hold Person
+//  SAY NAME1 @45    SAY UNIDENTIFIED_DESC @46
 
 COPY ~spell_rev\sppr2##\sppr209.spl~     ~override~  // Know Opponent (replaces Know Alignment)
   SAY NAME1 @47    SAY UNIDENTIFIED_DESC @48
 COPY ~spell_rev\sppr2##\dvknow1.eff~     ~override~
 
-COPY ~spell_rev\sppr2##\sppr210.spl~     ~override~  // Resist Fire/Resist Cold
-  SAY NAME1 @49    SAY UNIDENTIFIED_DESC @50
+//COPY ~spell_rev\sppr2##\sppr210.spl~     ~override~  // Resist Fire/Resist Cold
+//  SAY NAME1 @49    SAY UNIDENTIFIED_DESC @50
 
-ADD_PROJECTILE ~spell_rev\projectles\dvsilenc.pro~
-COPY ~spell_rev\sppr2##\sppr211.spl~     ~override~  // Silence
-  SAY NAME1 @51    SAY UNIDENTIFIED_DESC @52
-  SET "loop" = 18
-  WHILE ("%loop%" > 0) BEGIN
-    WRITE_SHORT (0x98 + 0x28 * ("%loop%" - 1) ) "%dvsilenc%"
-    SET "loop" = "%loop%" - 1
-  END
+//ADD_PROJECTILE ~spell_rev\projectles\dvsilenc.pro~
+//COPY ~spell_rev\sppr2##\sppr211.spl~     ~override~  // Silence
+//  SAY NAME1 @51    SAY UNIDENTIFIED_DESC @52
+//  SET "loop" = 18
+//  WHILE ("%loop%" > 0) BEGIN
+//    WRITE_SHORT (0x98 + 0x28 * ("%loop%" - 1) ) "%dvsilenc%"
+//    SET "loop" = "%loop%" - 1
+//  END
 
-COPY ~spell_rev\sppr2##\sppr212.spl~     ~override~  // Slow Poison
-  SAY NAME1 @53    SAY UNIDENTIFIED_DESC @54
+//COPY ~spell_rev\sppr2##\sppr212.spl~     ~override~  // Slow Poison
+//  SAY NAME1 @53    SAY UNIDENTIFIED_DESC @54
 
 COPY ~spell_rev\sppr2##\sppr213.spl~     ~override~  // Spiritual Hammer
   SAY NAME1 @55    SAY UNIDENTIFIED_DESC @56
