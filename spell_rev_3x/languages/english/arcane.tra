@@ -1541,13 +1541,11 @@ Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-Upon casting this spell, the wizard conjures two spider eggs into existence, quickly producing fully grown spiders that remain under the wizard's telepathic control. The type of spiders that appear depend upon the level of the wizard casting the spell.
+Upon casting this spell, the wizard conjures spider eggs into existence, quickly producing fully grown spiders that remain under the wizard's telepathic control. The type of spiders that appear depend upon the level of the wizard casting the spell.
 
 7th : 2 giant spiders
-9th : 2 phase spiders
-12th+ : 2 sword spiders
-
-The spiders will remain under the wizard's control until they are slain or the spell duration expires.
+10th : 3 giant spiders
+14th+ : 3 giant spiders, 1 sword spider
 
 Giant Spider (4 Hit Dice):
 STR 15, DEX 17, CON 12, INT -, WIS 10, CHA 2;  AL Neutral
@@ -1555,15 +1553,9 @@ HP 32, AC 6, THAC0 16, Saving Throws 10/13/10/13/13
 1 Attack Per Round, 1d8 Piercing Damage (Bite +1)
 
 
-Phase Spider (5 Hit Dice):
-STR 17, DEX 17, CON 15, INT 7, WIS 13, CHA 10;  AL Neutral
-HP 45, AC 5, THAC0 15, Saving Throws 10/13/10/13/13
-2 Attacks Per Round, 1d8+2 Piercing Damage (Bite +1)
-
-
-Sword Spider (6 Hit Dice):
+Sword Spider (5 Hit Dice):
 STR 17, DEX 10, CON 15, INT -, WIS 11, CHA 3;  AL Neutral
-HP 54, AC 3, THAC0 14, Saving Throws 9/12/9/12/12
+HP 45, AC 3, THAC0 14, Saving Throws 9/12/9/12/12
 4 Attacks Per Round, 1d8+2 Piercing Damage (Legs & Bite +1)
 
 Combat Abilities (all spiders):
@@ -1754,7 +1746,7 @@ Casting Time: 5
 Area of Effect: 30' radius
 Saving Throw: Special
 
-This spell is similar to the 4th level Confusion spell, but creatures with 5 or more Hit Dice/levels less than the caster do not receive a saving throw versus the effects. Those allowed saving throws vs. spell roll them with a -4 penalty. Those who successfully save are unaffected by the spell. Affected creatures will either go berserk, stand confused, or wander about for the duration of the spell. Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature. The spell lasts for the duration or until a successful dispel magic is cast.~
+This spell is similar to the 4th level Confusion spell, but creatures less then half Dice/levels of the caster (round up) do not receive a saving throw versus the effects, upto level 10. Those allowed saving throws vs. spell roll them with a -4 penalty. Those who successfully save are unaffected by the spell. Affected creatures will either go berserk, stand confused, or wander about for the duration of the spell. Wandering creatures move as far from the caster as possible, according to their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature. The spell lasts for the duration or until a successful dispel magic is cast.~
 
 @627=~Feeblemind~
 @628=~Feeblemind
@@ -1893,7 +1885,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-This spell creates a translucent, weightless, shadowlike sword made of material from the Plane of Shadow that extends 3 feet from the caster's hand. The caster wields the phantom blade as if it was a long sword but he suffers no penalty for non-proficiency. The sword deals 1d12+4 points of magic damage to its victims, and an additional 10 points of damage against undead creatures. Due to its ethereal nature, strength bonuses do not apply, but attacks with the phantom blade are considered melee touch attacks, and thus gain a +4 bonus to hit. Furthermore, a successful strike temporarily scrambles magic, causing any spells the target casts in the next round to fail (save vs. spell at a -4 penalty negates). The blade is considered to be of +4 enchantment when determining what it can hit, but it cannot harm inorganic things because it has no solid existence. The phantom blade can only be used by the caster, and remains in his hand for the duration of the spell or until dispelled.~
+This spell creates a translucent, weightless, shadowlike sword made of material from the Plane of Shadow that extends 3 feet from the caster's hand. The caster wields the phantom blade as if it was a long sword but he suffers no penalty for non-proficiency. The sword deals 1d12+4 points of magic damage to its victims, and an additional 10 points of damage against undead creatures. Due to its ethereal nature, strength bonuses do not apply, but attacks with the phantom blade are considered melee touch attacks, and thus gain a +4 bonus to hit. Furthermore, a successful strike temporarily scrambles magic will have 50% chance to cause any spells the target casts in the next round to fail (save vs. spell at a -4 penalty negates). The blade is considered to be of +4 enchantment when determining what it can hit, but it cannot harm inorganic things because it has no solid existence. The phantom blade can only be used by the caster, and remains in his hand for the duration of the spell or until dispelled.~
 
 @647=~Wizard Spell Shield~
 @648=~Wizard Spell Shield

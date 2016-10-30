@@ -154,5 +154,30 @@ spwi416 - Polymorph Self	: Vanilla
 spwi417 - Enchant Weapon	: V3
 spwi418 - Fireshield (Red)	: V3
 spwi419 - Secret Word		: Vanilla
+spwi420 - Minor Sequencer	: Vanilla
+spwi421 - Teleport Field	: V4
+spwi423 - Spider spawn		: V4 with one more level for each upgrade
+spwi424 - Far sight		: Vanilla
+spwi425 - Wizard eye		: Vanilla
+
+spwi501 - Skeleton -> Shadow	: V3, upgrade at 14 instead of 12
+spwi502 - Cloudkill		: Vanilla
+spwi503 - Cone of cold		: Vanilla
+spwi504 - Monster summoning III : V3, upgrade at 13 instead of 12
+spwi505 - Shadow Door		: V4
+spwi506 - Domination		: Vanilla
+spwi507 - Hold Monster		: Vanilla
+spwi508 - Chaos			: V3, with min level to save at half of the caster
+spwi509 - Feeblemindness	: V3
+spwi510 - Spell immunity	: Vanilla
+spwi511 - Pro normal weapons	: Vanilla
+spwi512 - Pro from electricity	: Vanilla
+spwi513 - Breach		: Vanilla
+spwi514 - Lower resistance	: V3
+spwi515 - Oracle		: V3
+spwi516 - Conj lesser fire elem	: V3
+spwi517 - Pro from acid		: Vanilla
+spwi518 - Phantom Blade		: V3, with spell failure chance lower to 50%
+spwi519 - Spell shield		: Vanilla
 
 
