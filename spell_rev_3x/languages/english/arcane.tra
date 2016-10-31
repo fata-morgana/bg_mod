@@ -2203,16 +2203,24 @@ This spell absorbs spells cast from scrolls and innate spell-like abilities, but
 Level: 6
 School: Conjuration
 Range: Long
-Duration: 1 turn/level
+Duration: 3 turns
 Casting Time: 1 round
 Area of Effect: Special
 Saving Throw: None
 
-When this spell is cast, the wizard opens up a magical channel that will summon a wyvern to his aid. This creature will be totally under the caster's mental control with no chance of it turning on him except, of course, through magical means like Charm Monster. The creature will remain under the wizard's control, and will live and die at his command until the spell duration expires.
+When this spell is cast, the wizard opens up a magical channel that will summon a number of wyverns to his aid. This creature will be totally under the caster's mental control with no chance of it turning on him except, of course, through magical means like Charm Monster. The creature will remain under the wizard's control, and will live and die at his command until the spell duration expires.
+
+11th : 2 baby wyverns
+16th+ : 2 baby wyverns, 1 wyvern
+
+Baby Wyvern (6 Hit Dice):
+STR 17, DEX 12, CON 15, INT 6, WIS 11, CHA 9;  AL Neutral Evil
+HP 78, AC 3, THAC0 12, Saving Throws 11/15/11/13/15
+4 Attacks Per Round, 2d6+3 Piercing Damage (Bite, Claws, & Sting +1)
 
 Wyvern (7 Hit Dice):
 STR 19, DEX 12, CON 15, INT 6, WIS 12, CHA 9;  AL Neutral Evil
-HP 91, AC 2, THAC0 8, Saving Throws 9/12/9/12/12
+HP 91, AC 2, THAC0 8, Saving Throws 10/14/10/12/14
 4 Attacks Per Round, 2d6+9 Piercing Damage (Bite, Claws, & Sting +2)
 
 Combat Abilities:

@@ -174,10 +174,42 @@ spwi511 - Pro normal weapons	: Vanilla
 spwi512 - Pro from electricity	: Vanilla
 spwi513 - Breach		: Vanilla
 spwi514 - Lower resistance	: V3
-spwi515 - Oracle		: V3
+spwi515 - Oracle		: Vanilla
 spwi516 - Conj lesser fire elem	: V3
 spwi517 - Pro from acid		: Vanilla
 spwi518 - Phantom Blade		: V3, with spell failure chance lower to 50%
 spwi519 - Spell shield		: Vanilla
+spwi520 - Conj lesser air elem  : V3
+spwi521 - Conj lesser earth elem: V3
+spwi522 - Minor spell turning	: Vanilla
+spwi523 - Sunfire		: Vanilla, with save at -4 instead of 0
 
+spwi601 - Summon invisible stalker:V3
+spwi602 - Globe of invulnerability:Vanilla
+spwi603 - Tenser's		: V3
+spwi604 - Flesh to stone	: V3, save at -2 instead of -5
+spwi605 - Death spell		: Vanilla
+spwi606 - Pro magic energy	: Vanilla
+spwi607 - Mislead		: V3
+spwi608 - Pierce magic		: Vanilla
+spwi609 - True sight		: Vanilla
+spwi611 - Pro magical weapons	: Vanilla
+spwi612 - Power word, silence	: V3
+spwi613 - Improve haste		: Vanilla
+spwi614 - Death -> Acid fog	: V3
+spwi615 - Chain lightning	: V3 with -2 vs spell instead of -5 vs breath
+spwi616 - Disintegrate		: V4
+spwi617 - Contingency		: Vanilla
+spwi618 - Spell Deflection	: Vanilla
+spwi619 - Wywern call		: V4
+spwi620 - Conj fire elem	: V3
+spwi621 - Conj air elem		: V3
+spwi622 - Conj earth elem	: V3
+spwi623 - carrion -> Create undead:V3
+spwi624 - Summon Nishruu	: V3
+spwi625 - Stone to flesh	: Vanilla
+
+spwi701 - Spell turning		: Vanilla
+spwi702 - Pro from the elements	: Vanilla
+spwi703 - Project image		: Vanill
 
