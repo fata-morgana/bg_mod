@@ -60,7 +60,7 @@ COPY ~spell_rev\shared\dvimhere.mrk~      ~override~  // Used to detect if SR is
 COPY ~spell_rev\shared\dvsrv3.mrk~      ~override~  // Used to detect if SR V3 is installed
 COPY ~spell_rev\shared\dvsrv4here.mrk~      ~override~  // Used to detect if SR V4 is installed
 
-STRING_SET ~27982~ @5410 // replaces 'Protection from Illusions removed' with 'Illusionary protections removed'
+//STRING_SET ~27982~ @5410 // replaces 'Protection from Illusions removed' with 'Illusionary protections removed'
 
 
 /*COPY_EXISTING ~intmod.2da~ ~override~  // Int Modifier for Maze & Imprisonment
@@ -123,42 +123,42 @@ COPY ~spell_rev\shared\bams~     ~override~ // Bams for new spells
 ADD_PROJECTILE ~spell_rev\projectles\dvmainpr.pro~ // 1 target, no animation, 200 speed
 
 COPY_EXISTING ~bignarea.pro~ ~override~
-  WRITE_SHORT 0x206 450
+//  WRITE_SHORT 0x206 450
   BUT_ONLY_IF_IT_CHANGES
   
 COPY_EXISTING ~iceglyp.pro~ ~override~  // Symbol of Death/Stun/Weakness
   WRITE_SHORT 0x200 77  // Don't affect caster and allied creatures
-  WRITE_SHORT 0x206 200
+//  WRITE_SHORT 0x206 200
   BUT_ONLY_IF_IT_CHANGES
   
 COPY_EXISTING ~trapglyp.pro~ ~override~  // Fire Trap/Glyph of Warding
   WRITE_SHORT 0x200 77  // Don't affect caster and allied creatures
-  WRITE_SHORT 0x206 200
+//  WRITE_SHORT 0x206 200
   BUT_ONLY_IF_IT_CHANGES
   
-COPY_EXISTING ~inareasm.pro~ ~override~
-  WRITE_SHORT 0x206 110
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~inareasm.pro~ ~override~
+//  WRITE_SHORT 0x206 110
+//  BUT_ONLY_IF_IT_CHANGES
   
-COPY_EXISTING ~newbolt1.pro~ ~override~  // Lightning Bolt's "new" projectile
-  WRITE_SHORT 0x0a 20  // Increase speed to 20 to match Chain Lightning's one
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~newbolt1.pro~ ~override~  // Lightning Bolt's "new" projectile
+//  WRITE_SHORT 0x0a 20  // Increase speed to 20 to match Chain Lightning's one
+//  BUT_ONLY_IF_IT_CHANGES
   
-COPY_EXISTING ~smllarnc.pro~ ~override~
-  WRITE_SHORT 0x206 60
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~smllarnc.pro~ ~override~
+//  WRITE_SHORT 0x206 60
+//  BUT_ONLY_IF_IT_CHANGES
   
-COPY_EXISTING ~smllnpc.pro~ ~override~
-  WRITE_SHORT 0x206 60
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~smllnpc.pro~ ~override~
+//  WRITE_SHORT 0x206 60
+//  BUT_ONLY_IF_IT_CHANGES
   
-COPY_EXISTING ~hold.pro~ ~override~ // Hold
-  WRITE_SHORT 0x206 60
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~hold.pro~ ~override~ // Hold
+//  WRITE_SHORT 0x206 60
+//  BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~holdnecr.pro~ ~override~ // Halt/Control Undead
-  WRITE_SHORT 0x206 60
-  BUT_ONLY_IF_IT_CHANGES
+//COPY_EXISTING ~holdnecr.pro~ ~override~ // Halt/Control Undead
+//  WRITE_SHORT 0x206 60
+//  BUT_ONLY_IF_IT_CHANGES
   
 COPY_EXISTING ~insec2.pro~ ~override~  // Insect Plague and Creeping Doom
   WRITE_SHORT 0x0a 10  // Increase speed to 10 to match Insect spell's one 
