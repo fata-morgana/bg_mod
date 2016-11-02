@@ -2526,7 +2526,7 @@ Casting Time: 7
 Area of Effect: 30' radius
 Saving Throw: Spell negates
 
-This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -6 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target goes berserk, becomes confused, becomes paralyzed, is rendered unconscious, or flees in panic.~
+This spell allows the caster to create a sphere of chaotic magic. All enemies within the area affected by the casting of this spell must make a saving throw vs. spell at -4 for every round that they remain in the sphere, and if the save is failed one of the following random effects occurs: the target goes berserk, becomes confused, becomes paralyzed, is rendered unconscious, or flees in panic.~
 
 @739=~Delayed Blast Fireball~
 @740=~Delayed Blast Fireball
@@ -2538,7 +2538,7 @@ Casting Time: 7
 Area of Effect: 30' radius
 Saving Throw: Breath half
 
-This spell creates a fireball that hovers at a point determined by the caster. The fireball will stay in position until someone walks within 20 feet of it. When this happens, the fireball is triggered and explodes, damaging everyone within a 30 foot radius. The explosion will deal 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 20d6), with a save vs. breath at -6 for half damage.~
+This spell creates a fireball that hovers at a point determined by the caster. The fireball will stay in position until someone walks within 20 feet of it. When this happens, the fireball is triggered and explodes, damaging everyone within a 30 foot radius. The explosion will deal 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 20d6), with a save vs. spell at -4 for half damage.~
 
 @741=~Finger of Death~
 @742=~Finger of Death
@@ -2550,7 +2550,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Death partial
 
-The Finger of Death spell snuffs out a creature's life force. The caster points his finger at the intended victim after the incantation is complete and death occurs unless a save vs. death at -6 is made. A creature successfully saving still receives 2d8 points of damage plus 1 per level of the caster.~
+The Finger of Death spell snuffs out a creature's life force. The caster points his finger at the intended victim after the incantation is complete and death occurs unless a save vs. death at -4 is made. A creature successfully saving still receives 2d8 points of damage plus 1 per level of the caster.~
 
 @743=~Prismatic Spray~
 @744=~Prismatic Spray
@@ -2562,11 +2562,11 @@ Casting Time: 7
 Area of Effect: Cone
 Saving Throw: Special
 
-When this spell is cast, the wizard causes seven shimmering, multicolored rays of light to flash from his hand. These include all colors of the visible spectrum; each ray has a different power and purpose. Any creature with fewer than 8 Hit Dice struck by a ray is blinded for 5 rounds, regardless of any other effect. Any creature that is caught within the area of effect will be touched by one or more rays. The effects of the rays are listed below and all saves are made at a -6 penalty.
+When this spell is cast, the wizard causes seven shimmering, multicolored rays of light to flash from his hand. These include all colors of the visible spectrum; each ray has a different power and purpose. Any creature with fewer than 8 Hit Dice struck by a ray is blinded for 5 rounds, regardless of any other effect. Any creature that is caught within the area of effect will be touched by one or more rays. The effects of the rays are listed below and all saves are made at a -4 penalty.
 
-Red - 20 points of fire damage (save vs. breath half)
-Orange - 40 points of acid damage (save vs. breath half)
-Yellow - 80 points of electrical damage (save vs. breath half)
+Red - 10d6 points of fire damage (save vs. breath half)
+Orange - 10d6 points of acid damage (save vs. breath half)
+Yellow - 10d6 points of electrical damage (save vs. breath half)
 Green - Death (save vs. poison reduces to 20 poison damage)
 Blue - Permanently stunned (save vs. polymorph neg.)
 Indigo - Feeblemind (save vs. wands neg.)
@@ -2594,7 +2594,7 @@ Casting Time: 7
 Area of Effect: Special
 Saving Throw: None
 
-Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to all damage (physical, acid, cold, poison, etc.) except for pure magic damage, is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
+Upon casting this spell, the wizard brings into being a shimmering, swordlike plane of force. Once the spell is cast, the sword will float in the air completely under the control of the caster, until the spell duration expires or the sword is dispelled. The sword acts as a +4 weapon in all respects and attacks on its own once each round, inflicting 5d4 damage when it hits a target. It has 100% resistance to almost all forms of dmage (acid, cold, fire, electricity, poison, etc.), and 95% resistance to physical damage, but it's vulnerable to pure magic damage. The sword is immune to mind affecting spells, has 36 hit points, AC 5, and THAC0 2. Note that this spell does not prevent the caster from performing any other actions while the spell is in effect.~
 
 @749=~Summon Efreeti~
 @750=~Summon Efreeti
@@ -2788,6 +2788,8 @@ Saving Throw: None
 By means of this spell, the wizard may launch a massive attack on a target's physical and magical defenses. Pierce Shield will dispel one spell protection of any level from the target creature. This will always dispel the highest level of spell protection on the target first. If the target has two or more protections tied for the highest level, the choice will be random. After piercing through magical protections, this powerful spell will breach each and every combat protection on the target creature. The target's magic resistance, if any, does not affect this spell.
 
 The spell protection spells dispelled by Pierce Shield are: Minor Spell Deflection, Minor Globe of Invulnerability, Minor Spell Turning, Spell Immunity, Globe of Invulnerability, Spell Deflection, Shield of the Archons, Spell Turning, Spell Trap, and Spell Shield.
+
+The specific protection spells dispelled by Pierce Shield are: Resist Fear, Resist Elements, Death Ward, Free Action, Protection from Acid, Protection from Cold, Protection from Electricity, Protection from Fire, Chaotic Commands, Protection from Magic Energy, Protection from the Elements, and Protection from Energy.
 
 The combat protection spells dispelled by Pierce Shield are: Mage Armor, Shield, Armor of Faith, Barkskin, Protection from Missiles, Spirit Armor, Stoneskin, Protection from Normal Weapons, Protection from Magical Weapons, Blade Barrier, Physical Mirror, Mantle, Improved Mantle, and Absolute Immunity.~
 
@@ -3333,3 +3335,19 @@ When this spell is cast, a huge meteor or comet strikes the earth, damaging all 
 
 
 @1024=~This disc was created by the Energy Blades spell. When thrown at opponents it causes 1d4+5 points of missile damage as well as an additional 1d10 points of electrical damage.~
+
+/* ---- New spell --- */
+@863=~Spell Shield Dispelled~
+
+@864=~Resist Elements~
+@865=~Resist Elements
+Level: 2
+School: Abjuration
+Sphere: Protection
+Range: Touch
+Duration: 1 turn + 1 round/level
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+Upon the casting of this spell, the recipient's resistance to all forms of elemental damage is increased by 25%. This effect will last for the duration of the spell or until dispelled. Multiple castings of this spell are not cumulative~

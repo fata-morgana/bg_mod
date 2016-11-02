@@ -211,5 +211,34 @@ spwi625 - Stone to flesh	: Vanilla
 
 spwi701 - Spell turning		: Vanilla
 spwi702 - Pro from the elements	: Vanilla
-spwi703 - Project image		: Vanill
+spwi703 - Project image		: Vanilla
+spwi704 - Ruby ray of reversal  : Vanilla
+spwi705 - Khelben's warding whip: Vanilla
+spwi707 - Summon Death Knight	: V3
+spwi708 - Mantle		: V3
+spwi710 - Spell Sequencer	: Vanilla
+spwi711 - Sphere of chaos	: V4
+spwi712 - Delayed blash fireball: V4, save vs spell instead of breath
+spwi713 - Finger of Death	: V3
+spwi714 - Prismatic Spray	: V4, save vs spell instead of breath
+spwi715 - Power Word, Stun	: V4
+spwi716 - Mordenkainen's sword	: V4
+spwi717 - Summon Efreeti	: V3
+spwi718 - Summon Djinn		: V3
+spwi719 - Summon Hakeashar	: V3
+spwi720 - Control undead	: V3, save at -4 instead of -6, no save if less than half the lvl of caster instead of 5 lower lvl
+spwi721 - Mass Invisibility	: Vanilla
+spwi722 - Limited wish		: Vanilla
+spwi723 - Improved chaos shield	: Vanilla
+
+spwi801 - Ghostform		: V3 - added
+spwi802 - Spell deflection	: Vanilla
+spwi803 - Protection from energy: Vanilla
+spwi804 - Simulacrum		: Vanilla
+spwi805 - Pierce Shield		: V4
+spwi807 - Summon Field		: V4
+spwi808 - Improve Mentle	: V3
+spwi809 - Spell Trigger		: Vanilla
+spwi810 - Incendiary Cloud	: Vanilla
+spwi811 - Symbol, Fear		: Vanilla
 

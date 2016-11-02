@@ -628,7 +628,7 @@ Casting Time: 5
 Area of Effect: 1 person or mammal 
 Saving Throw: Neg. 
 
-The target of this spell must make a Saving Throw vs. Spell with -4 penalty or come under its effects. When under the effects of the Rigid Thinking spell, the victim will randomly wander, attack the nearest person, or stand confused.
+The target of this spell must make a Saving Throw vs. Spell with -4 penalty or come under its effects. When under the effects of the Rigid Thinking spell, the victim will randomly wander, attack the nearest person, or stand confused.~
 
 @93=~Strength of One~
 @94=~Strength of One
@@ -764,6 +764,44 @@ Saving Throw: None
 
 This spell surrounds the caster with an invisible curtain of stormy winds that moves with him. The wind wall grants the caster +4 bonus to saves vs. breath and AC against missiles for the duration of the spell. Non-magical missile weapons are deflected away, while gases cannot penetrate the barrier. Tiny and small flying creatures cannot pass through.~
 
+@2327=~Magic Fang~
+@2328=~Magic Fang
+Level: 3
+School: Alteration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 5
+Area of Effect: 30' radius
+Saving Throw: None
+
+This spell turns natural weapons (such as teeth, claws, etc.) of friendly animals within range into magical weapons, effectively granting a +1 enhancement bonus on attack and damage rolls. For every other five experience levels of the spellcaster, this bonus increases by one, up to a total of +3 enchantment level, +3 to attack rolls, and +3 to damage for a 15th-level caster. Multiple castings of this spell are not cumulative.~
+
+@2333=~Spike Growth~
+@2334=~Spike Growth
+Level: 3
+School: Alteration
+Sphere: Plant
+Range: Long
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: 20' radius
+Saving Throw: Breath partial
+
+The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. Any creature will suffer 1d4 points of piercing damage each round that they remain within the affected area. The spikes can damage the victim's legs, so that even once they are free of the spike growth their movement rate is halved for 3 rounds unless a successful save vs. breath is made. Those failing the save also suffer 1 point of bleeding damage each round for 3 rounds. Incorporeal and flying creatures are unaffected by this spell, as are elementals and exceptionally large creatures who suffer little to no distress from the small spikes.~
+
+@2335=~Icelance~
+@2336=~Icelance
+Level: 3
+School: Evocation
+Sphere: Elemental (Water)
+Range: Short
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: Paralisys partial 
+
+When this spell is cast, a sharp spear of ice impale the target inflicting 5d6 points of damage. The target must make a save vs paralysis or be held for three rounds~
 
 /*------------------level 4------------------*/
 
