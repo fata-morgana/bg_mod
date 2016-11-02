@@ -576,7 +576,7 @@ COPY ~spell_rev\sppr4##\scrl56.itm~     ~override~
 //COPY ~spell_rev\sppr5##\scrl61.itm~     ~override~
 //  SAY NAME2 @111    SAY IDENTIFIED_DESC   @112
 
-COPY ~spell_rev\sppr4##\sppr402.spl~     ~override~  // Animal Summoning I
+/*COPY ~spell_rev\sppr4##\sppr402.spl~     ~override~  // Animal Summoning I
   SAY NAME1 @113    SAY UNIDENTIFIED_DESC @114
 COPY ~spell_rev\sppr4##\wolfdisu.eff~     ~override~
 COPY ~spell_rev\sppr4##\wolfdisu.cre~     ~override~
@@ -585,19 +585,28 @@ ADD_PROJECTILE ~spell_rev\projectles\dvanpack.pro~
 COPY ~spell_rev\sppr4##\dvanpack.spl~     ~override~
   WRITE_SHORT 0x98 %dvanpack%
 COPY ~spell_rev\sppr4##\dvanpack.eff~     ~override~
+*/
 
-COPY ~spell_rev\sppr4##\sppr403.spl~     ~override~  // Free Action
-  SAY NAME1 @115    SAY UNIDENTIFIED_DESC @116
-COPY ~spell_rev\sppr4##\scrl58.itm~     ~override~
-  SAY NAME2 @115    SAY IDENTIFIED_DESC   @116
+COPY ~spell_rev\sppr4##\sppr402.spl~     ~override~  // Animal Summoning I (IV v4)
+  SAY NAME1 @113    SAY UNIDENTIFIED_DESC @114
+COPY ~spell_rev\sppr4##\catjagsu.eff~     ~override~
+COPY ~spell_rev\sppr4##\catjagsu.cre~     ~override~
+COPY ~spell_rev\sppr4##\catjagsu.itm~     ~override~
+COPY ~spell_rev\sppr4##\catjagsu.bcs~     ~override~
+COPY ~spell_rev\sppr4##\dvspratt.spl~     ~override~ // Spring Attack (Pounce)
+
+//COPY ~spell_rev\sppr4##\sppr403.spl~     ~override~  // Free Action
+//  SAY NAME1 @115    SAY UNIDENTIFIED_DESC @116
+//COPY ~spell_rev\sppr4##\scrl58.itm~     ~override~
+//  SAY NAME2 @115    SAY IDENTIFIED_DESC   @116
 
 COPY ~spell_rev\sppr4##\sppr404.spl~     ~override~  // Neutralize Poison
   SAY NAME1 @117    SAY UNIDENTIFIED_DESC @118 
 
-COPY ~spell_rev\sppr4##\sppr405.spl~     ~override~  // Mental Domination
-  SAY NAME1 @119    SAY UNIDENTIFIED_DESC @120
-COPY ~spell_rev\sppr4##\scrl5a.itm~     ~override~
-  SAY NAME2 @119    SAY IDENTIFIED_DESC   @120
+//COPY ~spell_rev\sppr4##\sppr405.spl~     ~override~  // Mental Domination
+//  SAY NAME1 @119    SAY UNIDENTIFIED_DESC @120
+//COPY ~spell_rev\sppr4##\scrl5a.itm~     ~override~
+//  SAY NAME2 @119    SAY IDENTIFIED_DESC   @120
 
 ADD_PROJECTILE ~spell_rev\projectles\dvharmon.pro~
 COPY ~spell_rev\sppr4##\sppr406.spl~     ~override~  // Defensive Harmony
@@ -629,10 +638,14 @@ COPY ~spell_rev\sppr4##\sppr409.spl~     ~override~  // Death Ward
 
 COPY ~spell_rev\sppr4##\sppr410.spl~     ~override~  // Call Woodland Beings
   SAY NAME1 @129    SAY UNIDENTIFIED_DESC @130
-COPY ~spell_rev\sppr4##\DVNYMPH.EFF~     ~override~
-COPY ~spell_rev\sppr4##\DVNYMPH.CRE~     ~override~
-COPY ~spell_rev\sppr4##\DVNYMPH.ITM~     ~override~
-COPY ~spell_rev\sppr4##\DVNYMPH.BCS~     ~override~
+COPY ~spell_rev\sppr4##\hamasu.eff~     ~override~
+COPY ~spell_rev\sppr4##\hamasu.cre~     ~override~
+COPY ~spell_rev\sppr4##\hamasu.itm~     ~override~
+COPY ~spell_rev\sppr4##\hamasu.bcs~     ~override~
+COPY ~spell_rev\sppr4##\dvnymph.eff~     ~override~
+COPY ~spell_rev\sppr4##\dvnymph.cre~     ~override~
+COPY ~spell_rev\sppr4##\dvnymph.itm~     ~override~
+COPY ~spell_rev\sppr4##\dvnymph.bcs~     ~override~
 
 COPY ~spell_rev\sppr4##\sppr411.spl~     ~override~  // Poison
   SAY NAME1 @131    SAY UNIDENTIFIED_DESC @132
@@ -641,10 +654,10 @@ COPY ~spell_rev\sppr4##\sppr412.spl~     ~override~  // Divine Power (renamed fr
   SAY NAME1 @133    SAY UNIDENTIFIED_DESC @134
 COPY ~spell_rev\sppr4##\sppr412a.eff~     ~override~
 COPY ~spell_rev\sppr4##\sppr412b.eff~     ~override~
-STRING_SET ~8267~ @133 // change portrait icon name into Divine Power
+//STRING_SET ~8267~ @133 // change portrait icon name into Divine Power
 
-COPY ~spell_rev\sppr4##\sppr413.spl~     ~override~  // Negative Plane Protection
-  SAY NAME1 @135    SAY UNIDENTIFIED_DESC @136
+//COPY ~spell_rev\sppr4##\sppr413.spl~     ~override~  // Negative Plane Protection
+//  SAY NAME1 @135    SAY UNIDENTIFIED_DESC @136
 
 COPY ~spell_rev\sppr4##\sppr414.spl~     ~override~  // Cause Critical Wounds (enabled at lvl 4)
   SAY NAME1 @137    SAY UNIDENTIFIED_DESC @138

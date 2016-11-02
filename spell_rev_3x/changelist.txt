@@ -59,8 +59,19 @@ sppr326 - Icelance		: V4 added
 
 (sppr315.bak, sppr323- to be moved)
 
-
-
+sppr401 - Cure Serious Wound	: V3 (rename from sppr315)
+sppr402 - Animal Summonning I	: V4
+sppr403 - Free action		: Vanilla
+sppr404 - Neutralize poison	: V3
+sppr405 - Mental Domination	: Vanilla
+sppr406 - Defensive harmony	: V3
+sppr407 - Pro from lightning	: V3
+sppr408 - Pro from evil 10'	: V3
+sppr409 - Death ward		: V3
+sppr410 - Call woodland beings	: V4, with upgrade at 10 and 13 instead of 9 and 11
+sppr411 - Poison		: V3, with upgrade at later lvl
+sppr412 - Holy Power		: V3
+sppr413 - Negative Plane Protection:Vanilla
 
 === Arcane ===
 spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
