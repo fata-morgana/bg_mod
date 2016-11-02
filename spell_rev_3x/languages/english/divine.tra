@@ -411,7 +411,7 @@ When this spell is cast, the priest's body shudders and glows with a shimmering 
 
 @59=~Cure Moderate Wounds~
 @60=~Cure Moderate Wounds
-Level: 2
+Level: 3
 School: Necromancy
 Sphere: Healing
 Range: Touch
@@ -740,7 +740,7 @@ This spell is the reverse of Cure Serious Wounds. Instead of healing the creatur
 
 @109=~Cure Serious Wounds~
 @110=~Cure Serious Wounds
-Level: 3
+Level: 4
 School: Necromancy
 Sphere: Healing
 Range: Touch

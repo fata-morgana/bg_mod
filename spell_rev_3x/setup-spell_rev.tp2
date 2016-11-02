@@ -438,9 +438,6 @@ COPY ~spell_rev\sppr2##\sppr214.spl~     ~override~  // Draw upon Divine Might (
 //COPY ~spell_rev\sppr2##\sppr214w.spl~     ~override~
 //STRING_SET ~12108~ @57 // change portrait icon name into Draw upon Divine Might
 
-COPY ~spell_rev\sppr2##\sppr215.spl~     ~override~  // Cure Moderate Wounds (active at lvl 2, disabled at lvl 3)
-  SAY NAME1 @59    SAY UNIDENTIFIED_DESC @60
-
 COPY ~spell_rev\sppr2##\sppr216.spl~     ~override~  // Fire Trap (new druid spell)
   SAY NAME1 @61    SAY UNIDENTIFIED_DESC @62
 COPY ~spell_rev\sppr2##\sppr216b.bam~     ~override~
@@ -517,10 +514,10 @@ COPY ~spell_rev\sppr3##\sppr312.spl~     ~override~  // Strength of One
 //  WRITE_SHORT 0x204 190
 //  WRITE_SHORT 0x206 190
 
-COPY ~spell_rev\sppr3##\sppr315.spl~     ~override~  // Cure Serious Wounds (disabled at lvl4, active at lvl 3) 
-  SAY NAME1 @109    SAY UNIDENTIFIED_DESC @110
-COPY ~spell_rev\sppr4##\scrl56.itm~     ~override~
-  SAY NAME2 @109    SAY IDENTIFIED_DESC   @110
+
+COPY ~spell_rev\sppr3##\sppr315.spl~     ~override~  // Cure Moderate Wounds
+  SAY NAME1 @59    SAY UNIDENTIFIED_DESC @60
+
 
 //COPY ~spell_rev\sppr3##\sppr317.spl~     ~override~  // Cure Disease
 // SAY NAME1 @99    SAY UNIDENTIFIED_DESC @100
@@ -542,9 +539,9 @@ APPEND_OUTER ~spell_rev/lib/ds_sr_extra.2da~ ~sppr319a.SPL    233     1     120 
 //COPY ~spell_rev\sppr3##\sppr515d.spl~     ~override~
 //  WRITE_SHORT 0x98 %dvrpdead%
 
-COPY ~spell_rev\sppr3##\sppr321.spl~     ~override~  // Cause Serious Wounds (disabled at lvl4, active at lvl 3) 
-  SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
-COPY ~spell_rev\sppr3##\serious.itm~     ~override~
+//COPY ~spell_rev\sppr3##\sppr321.spl~     ~override~  // Cause Serious Wounds (disabled at lvl4, active at lvl 3) 
+//  SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
+//COPY ~spell_rev\sppr3##\serious.itm~     ~override~
 
 COPY ~spell_rev\sppr3##\sppr322.spl~     ~override~  // Storm Shield (added to druid's spells) 
   SAY NAME1 @1109    SAY UNIDENTIFIED_DESC @1110
@@ -569,10 +566,15 @@ COPY ~spell_rev\sppr3##\icelance.bam~     ~override~
 
 /*-----------------------level 4-----------------------*/
 
-COPY ~spell_rev\sppr4##\sppr401.spl~     ~override~  // Cure Critical Wounds (disabled at lvl5, active at lvl 4)
-  SAY NAME1 @111    SAY UNIDENTIFIED_DESC @112
-COPY ~spell_rev\sppr5##\scrl61.itm~     ~override~
-  SAY NAME2 @111    SAY IDENTIFIED_DESC   @112
+COPY ~spell_rev\sppr4##\sppr401.spl~     ~override~  // Cure Serious Wounds
+  SAY NAME1 @109    SAY UNIDENTIFIED_DESC @110
+COPY ~spell_rev\sppr4##\scrl56.itm~     ~override~
+  SAY NAME2 @109    SAY IDENTIFIED_DESC   @110
+
+//COPY ~spell_rev\sppr4##\sppr401.spl~     ~override~  // Cure Critical Wounds (disabled at lvl5, active at lvl 4)
+//  SAY NAME1 @111    SAY UNIDENTIFIED_DESC @112
+//COPY ~spell_rev\sppr5##\scrl61.itm~     ~override~
+//  SAY NAME2 @111    SAY IDENTIFIED_DESC   @112
 
 COPY ~spell_rev\sppr4##\sppr402.spl~     ~override~  // Animal Summoning I
   SAY NAME1 @113    SAY UNIDENTIFIED_DESC @114
