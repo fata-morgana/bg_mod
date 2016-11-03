@@ -659,12 +659,16 @@ COPY ~spell_rev\sppr4##\sppr412b.eff~     ~override~
 //COPY ~spell_rev\sppr4##\sppr413.spl~     ~override~  // Negative Plane Protection
 //  SAY NAME1 @135    SAY UNIDENTIFIED_DESC @136
 
-COPY ~spell_rev\sppr4##\sppr414.spl~     ~override~  // Cause Critical Wounds (enabled at lvl 4)
-  SAY NAME1 @137    SAY UNIDENTIFIED_DESC @138
-COPY ~spell_rev\sppr4##\critical.itm~     ~override~
+COPY ~spell_rev\sppr4##\sppr414.spl~     ~override~  // Cause Serious Wounds
+  SAY NAME1 @107    SAY UNIDENTIFIED_DESC @108
+COPY ~spell_rev\sppr4##\serious.itm~     ~override~
 
-COPY ~spell_rev\sppr4##\sppr415.spl~     ~override~  // Farsight
-  SAY NAME1 @139    SAY UNIDENTIFIED_DESC @140
+//COPY ~spell_rev\sppr4##\sppr414.spl~     ~override~  // Cause Critical Wounds (enabled at lvl 4)
+//  SAY NAME1 @137    SAY UNIDENTIFIED_DESC @138
+//COPY ~spell_rev\sppr4##\critical.itm~     ~override~
+
+//COPY ~spell_rev\sppr4##\sppr415.spl~     ~override~  // Farsight
+//  SAY NAME1 @139    SAY UNIDENTIFIED_DESC @140
 
 COPY ~spell_rev\sppr4##\sppr416.spl~     ~override~  // Cloak of Fear
   SAY NAME1 @141    SAY UNIDENTIFIED_DESC @142
@@ -672,17 +676,17 @@ COPY ~spell_rev\sppr4##\sppr416d.spl~     ~override~
   SAY NAME1 @141
   WRITE_SHORT 0x98 %dvclfear%
 
-COPY ~spell_rev\sppr4##\sppr417.spl~     ~override~  // Lesser Restoration
-  SAY NAME1 @143    SAY UNIDENTIFIED_DESC @144
-COPY ~spell_rev\sppr4##\restore.itm~     ~override~
-  SAY NAME2 @143    SAY IDENTIFIED_DESC   @144 
+//COPY ~spell_rev\sppr4##\sppr417.spl~     ~override~  // Lesser Restoration
+//  SAY NAME1 @143    SAY UNIDENTIFIED_DESC @144
+//COPY ~spell_rev\sppr4##\restore.itm~     ~override~
+//  SAY NAME2 @143    SAY IDENTIFIED_DESC   @144 
 
 COPY ~spell_rev\sppr4##\sppr418.spl~     ~override~  // Ice Storm (added to druid's spells)
   SAY NAME1 @145    SAY UNIDENTIFIED_DESC @146
 
 /*-----------------------level 5-----------------------*/
 
-COPY ~spell_rev\sppr5##\sppr501.spl~     ~override~  // Animal Summoning II
+/*COPY ~spell_rev\sppr5##\sppr501.spl~     ~override~  // Animal Summoning II
   SAY NAME1 @151    SAY UNIDENTIFIED_DESC @152
 COPY ~spell_rev\sppr5##\leopdisu.eff~     ~override~
 COPY ~spell_rev\sppr5##\leopdisu.cre~     ~override~
@@ -691,8 +695,15 @@ COPY ~spell_rev\sppr5##\leopdisu.cre~     ~override~
 COPY ~spell_rev\sppr5##\leopdisu.itm~     ~override~
 COPY ~spell_rev\sppr5##\leopdisu.bcs~     ~override~
 COPY ~spell_rev\sppr5##\dvspratt.spl~     ~override~
+*/
 
-COPY ~spell_rev\sppr5##\sppr502.spl~     ~override~  // Cure Mortal Wounds (disabled at lvl 5)
+COPY ~spell_rev\sppr5##\sppr501.spl~     ~override~  // Animal Summoning V
+  SAY NAME1 @151    SAY UNIDENTIFIED_DESC @152
+COPY ~spell_rev\sppr5##\snakegsu.eff~     ~override~
+COPY ~spell_rev\sppr5##\snakegsu.cre~     ~override~
+COPY ~spell_rev\sppr5##\snakegsu.itm~     ~override~
+
+COPY ~spell_rev\sppr5##\sppr502.spl~     ~override~  // Cure Critial Wound (Cure Mortal Wounds (disabled at lvl 5))
   SAY NAME1 @153    SAY UNIDENTIFIED_DESC @154
 
 ADD_PROJECTILE ~spell_rev\projectles\dvflame.pro~

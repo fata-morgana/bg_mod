@@ -72,6 +72,15 @@ sppr410 - Call woodland beings	: V4, with upgrade at 10 and 13 instead of 9 and 
 sppr411 - Poison		: V3, with upgrade at later lvl
 sppr412 - Holy Power		: V3
 sppr413 - Negative Plane Protection:Vanilla
+sppr414 - Cause Serious wound	: V3
+sppr415 - Farsight		: Vanilla
+sppr416 - Cloak of fear		: V3, with no save penalty instead of -3
+sppr417 - Lesser Restoration	: Vanilla
+sppr418 - Ice storm		: V3 added
+
+sppr501 - Animal Summoning II	: V4, upgrade at lvl 12 instead of 11
+sppr502 - Cure critical wound	: V3 (rename from sppr401)
+
 
 === Arcane ===
 spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
