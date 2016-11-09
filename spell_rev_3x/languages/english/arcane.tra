@@ -1840,7 +1840,7 @@ When this spell is cast, an area roughly 30 feet in radius around the caster wil
 
 The spells that are affected by this are: Reflected Image, Invisibility, Blur, Mirror Image, Ghost Armor, Invisibility Sphere, Improved Invisibility, Shadow Door, Pixie Dust, Mislead, Project Image, and Mass Invisibility.~
 
-@641=~Conjure Lesser Fire Elemental~
+/*@641=~Conjure Lesser Fire Elemental~
 @642=~Conjure Lesser Fire Elemental
 Level: 5
 School: Conjuration
@@ -1855,6 +1855,29 @@ Upon casting Conjure Lesser Fire Elemental, the caster opens a special gate to t
 Lesser Fire Elemental (8 Hit Dice):
 STR 14, DEX 16, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
 HP 84, AC 2, THAC0 10, Saving Throws 10/12/11/11/13
+2 Attacks Per Round, 2d4+2 Slashing +2d4 Fire Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~*/
+
+@641=~Conjure Lesser Fire Elemental~
+@642=~Conjure Lesser Fire Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Fire Elemental, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Fire Elemental (8 Hit Dice):
+STR 14, DEX 16, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 80, AC 2, THAC0 10, Saving Throws 10/12/11/11/13
 2 Attacks Per Round, 2d4+2 Slashing +2d4 Fire Damage (Fist +2)
 
 Special Qualities:
@@ -1899,7 +1922,7 @@ Saving Throw: None
 
 This spell grants extraordinary protection from spells and spell-like effects for a limited amount of time. Every time a saving throw is required to reduce or negate an effect the caster will automatically succeed the save. Due to this spell's nature and short duration, it is mainly used to buy the wizard a few rounds in the thick of a magical duel. This effect lasts for the duration of the spell or until dispelled.~
 
-@649=~Conjure Lesser Air Elemental~
+/*@649=~Conjure Lesser Air Elemental~
 @650=~Conjure Lesser Air Elemental
 Level: 5
 School: Conjuration
@@ -1936,6 +1959,50 @@ Upon casting Conjure Lesser Earth Elemental, the caster opens a special gate to 
 Lesser Earth Elemental (8 Hit Dice):
 STR 19, DEX 8, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
 HP 104, AC 4, THAC0 8, Saving Throws 10/12/11/11/13
+2 Attacks Per Round, 2d6+9 Crushing Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~*/
+
+@649=~Conjure Lesser Air Elemental~
+@650=~Conjure Lesser Air Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Air Elemental, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Air Elemental (8 Hit Dice):
+STR 14, DEX 17, CON 16, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 80, AC 0, THAC0 8, Saving Throws 10/12/11/11/13
+3 Attacks Per Round, 1d6+2 Piercing Damage (Fist +2)
+
+Special Qualities:
+Immune to normal weapons
+Immune to hold, poison, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@651=~Conjure Lesser Earth Elemental~
+@652=~Conjure Lesser Earth Elemental
+Level: 5
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting Conjure Lesser Earth Elemental, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. The elemental has 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elemental's death. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Lesser Earth Elemental (8 Hit Dice):
+STR 19, DEX 8, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 96, AC 4, THAC0 8, Saving Throws 10/12/11/11/13
 2 Attacks Per Round, 2d6+9 Crushing Damage (Fist +2)
 
 Special Qualities:
@@ -2229,7 +2296,7 @@ Poison: a wyvern's sting injects a poison which inflicts 2hp/sec for 1 turn (sav
 Special Qualities:
 Immune to entangle, grease, hold, sleep, slow, stun, & web effects~
 
-@697=~Conjure Fire Elemental~
+/*@697=~Conjure Fire Elemental~
 @698=~Conjure Fire Elemental
 Level: 6
 School: Conjuration
@@ -2304,6 +2371,88 @@ HP 146, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
 Greater Earth Elemental (16 Hit Dice):
 STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
 HP 188, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d10+14 Crushing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~*/
+
+@697=~Conjure Fire Elemental~
+@698=~Conjure Fire Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Fire Elemental (12 Hit Dice):
+STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
+
+Greater Fire Elemental (16 Hit Dice):
+STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+
+@699=~Conjure Air Elemental~
+@700=~Conjure Air Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Air Elemental (12 Hit Dice):
+STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
+
+Greater Air Elemental (16 Hit Dice):
+STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+3 Attacks Per Round, 1d10+5 Piercing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@701=~Conjure Earth Elemental~
+@702=~Conjure Earth Elemental
+Level: 6
+School: Conjuration
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature. It is particularly difficult to maintain a gate to the Inner Planes - there is a 15% chance that the portal opened by the caster will collapse before the elemental enters the Prime Material Plane.
+
+Earth Elemental (12 Hit Dice):
+STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 126, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
+
+Greater Earth Elemental (16 Hit Dice):
+STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 152, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d10+14 Crushing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):

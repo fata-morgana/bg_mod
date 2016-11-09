@@ -1249,7 +1249,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: None
 
-When this spell is cast, the priest draws on the power of his god and lends it to the target creature, in effect creating a champion. The target gains a bonus to strength, dexterity, and constitution scores at a rate of 1 for every 3 levels of the caster, up to a maximum bonus of 6 at 18th level. The effect lasts for 1 round for every level of the caster or until dispelled. This spell is not cumulative with itself or with other similar spells.~
+When this spells is cast, the priest effectively draws on the strength of <PRO_HISHER> god and lends it to the target creature, in effect creating a champion. The target gains a bonus to <PRO_HISHER> THAC0 and damange at a rate of 1 for every 3 levels of the caster. So a 9th level priest would confer a THAC0 and damage bonus of 3 to the target, and so on.~
 
 @165=~Chaotic Commands~
 @166=~Chaotic Commands
@@ -1301,7 +1301,7 @@ Casting Time: 5
 Area of Effect: 1 creature
 Saving Throw: Spell partial
 
-Upon casting this spell, the priest has to touch an opponent in order to visit the effect upon them. On a successful touch from the priest, the victim is instantly killed unless a saving throw vs. spell at -4 is made. Even then, the victim will suffer 5d4+10 points of magic damage. The spell expires once the priest attempts a melee attack or after 5 rounds have passed. The priest gains a +4 bonus to hit the target.~
+Upon casting this spell, the priest has to touch an opponent in order to visit the effect upon them. On a successful touch from the priest, the victim is instantly killed unless a saving throw vs. spell is made. Even then, the victim will suffer 2d8+20 points of magic damage. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @173=~Greater Command~
 @174=~Greater Command
@@ -1414,7 +1414,7 @@ When a Protection from Cold spell is cast, the recipient receives complete prote
 
 /*------------------level 6------------------*/
 
-@191=~Aerial Servant~
+/*@191=~Aerial Servant~
 @192=~Aerial Servant
 Level: 6
 School: Conjuration
@@ -1434,9 +1434,31 @@ HP 148, AC -1, THAC0 2, Saving Throws 4/6/5/4/7
 
 Special Qualities:
 Natural Invisibility: constantly invisible as if affected by an Improved Invisibility spell
+Immune to hold, poison, sleep, & stun effects~*/
+
+@191=~Aerial Servant~
+@192=~Aerial Servant
+Level: 6
+School: Conjuration
+Sphere: Summoning
+Range: Medium
+Duration: 1 turn/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+The caster of this spell summons an Aerial Servant to do the caster's bidding for the duration of the spell. The servant will attack any enemies that the caster decides, staying until the duration of the spell ends or he is slain.
+
+Aerial Servant (13 Hit Dice):
+STR 21, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 122, AC -1, THAC0 5, Saving Throws 5/7/6/5/8
+2 Attacks Per Round, 2d6+11 Crushing Damage (Fist +2)
+
+Special Qualities:
+Natural Invisibility: constantly invisible as if affected by an Improved Invisibility spell
 Immune to hold, poison, sleep, & stun effects~
 
-@193=~Animal Summoning III~
+/*@193=~Animal Summoning III~
 @194=~Animal Summoning III
 Level: 6
 School: Conjuration
@@ -1457,9 +1479,33 @@ The summoned animals will aid the caster by whatever means they possess, staying
 Dire Bear (10 Hit Dice):
 STR 21, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
 HP 130, AC 3, THAC0 7, Saving Throws 8/10/9/9/11
-2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite +1)~
+2 Attacks Per Round, 2d4+11 Crushing Damage (Claws & Bite +1)~*/
 
-@1041=~Dire Bear~
+@193=~Animal Summoning III~
+@194=~Animal Summoning III
+Level: 6
+School: Conjuration
+Sphere: Animal
+Range: Long
+Duration: 3 turns
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls a number of animals, which serve the summoner under any conditions. The type and number of creatures that appear depend upon the level of the druid casting the spell.
+
+11th : 2 cave bears
+14th+ : 3 cave bears
+
+The summoned animals will aid the caster by whatever means they possess, staying until the spell duration expires.
+
+Cave Bear (6 Hit Dice):
+STR 19, DEX 13, CON 19, INT 6, WIS 12, CHA 10;  AL Neutral
+HP 78, AC 3, THAC0 11, Saving Throws 11/15/11/13/15
+2 Attacks Per Round, 2d4+9 Crushing Damage (Claws & Bite)~
+
+//@1041=~Dire Bear~
+@1041=~Cave Bear~
 
 @195=~Blade Barrier~
 @196=~Blade Barrier
@@ -1489,7 +1535,7 @@ Saving Throw: None
 
 This spell allows the caster to summon forth and control one or two massive mountain bears. The bears will respond to the caster's every whim for the duration of the spell.~
 
-@199=~Conjure Fire Elemental~
+/*@199=~Conjure Fire Elemental~
 @200=~Conjure Fire Elemental
 Level: 6
 School: Conjuration
@@ -1510,6 +1556,35 @@ HP 126, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
 Greater Fire Elemental (16 Hit Dice):
 STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
 HP 168, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 100%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~*/
+
+@199=~Conjure Fire Elemental~
+@200=~Conjure Fire Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Fire)
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Fire Elemental spell, the caster opens a special gate to the Elemental Plane of Fire, and a fire elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Fire Elemental (12 Hit Dice):
+STR 16, DEX 17, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 1, THAC0 7, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d6+4 Slashing +2d6 Fire Damage (Fist +3)
+
+Greater Fire Elemental (16 Hit Dice):
+STR 18, DEX 19, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC 0, THAC0 3, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d8+5 Slashing +2d8 Fire Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):
@@ -1645,7 +1720,7 @@ When the spell is completed, it creates a glowing gem. This gem must be immediat
 
 When it hits, the gem bursts with a brilliant, searing flash that causes 1d6 points of fire damage for every level of the caster (up to a maximum of 20d6) and blinds for 6 rounds. Undead creatures suffer double damage. The victim is allowed a saving throw vs. breath at a -5 penalty. If successful, only half damage is sustained and the target is not blinded.~
 
-@219=~Conjure Air Elemental~
+/*@219=~Conjure Air Elemental~
 @220=~Conjure Air Elemental
 Level: 6
 School: Conjuration
@@ -1694,6 +1769,62 @@ HP 146, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
 Greater Earth Elemental (16 Hit Dice):
 STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
 HP 188, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
+2 Attacks Per Round, 2d8+14 Crushing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Piercing, & Missile Resistance 40%~*/
+
+@219=~Conjure Air Elemental~
+@220=~Conjure Air Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Air)
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Air Elemental spell, the caster opens a special gate to the Elemental Plane of Air, and an air elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Air Elemental (12 Hit Dice):
+STR 16, DEX 19, CON 17, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 0, THAC0 5, Saving Throws 7/9/8/8/10
+3 Attacks Per Round, 1d8+4 Piercing Damage (Fist +3)
+
+Greater Air Elemental (16 Hit Dice):
+STR 18, DEX 21, CON 18, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 138, AC -1, THAC0 1, Saving Throws 4/6/5/4/7
+3 Attacks Per Round, 1d8+5 Piercing Damage (Fist +3)
+
+Special Qualities (12 & 16 Hit Dice):
+Immune to normal weapons
+Immune to hold, poison, polymorph, sleep, & stun effects
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%~
+
+@221=~Conjure Earth Elemental~
+@222=~Conjure Earth Elemental
+Level: 6
+School: Conjuration
+Sphere: Elemental (Earth)
+Range: Medium
+Duration: 1 turn + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Upon casting a Conjure Earth Elemental spell, the caster opens a special gate to the Elemental Plane of Earth, and an earth elemental is summoned to the vicinity of the spellcaster. Normally, an elemental with 12 hit dice will be conjured. At fifteenth level and above, however, the caster will be able to summon an elemental with 16 hit dice. The elemental will do the bidding of the caster until it is slain or the duration of the spell runs out. All of the commands given to the elemental are done so telepathically, so there is no time lost due to miscommunication, and it is not necessary to know the language of the summoned creature.
+
+Earth Elemental (12 Hit Dice):
+STR 21, DEX 8, CON 19, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 116, AC 3, THAC0 4, Saving Throws 7/9/8/8/10
+2 Attacks Per Round, 2d8+12 Crushing Damage (Fist +3)
+
+Greater Earth Elemental (16 Hit Dice):
+STR 23, DEX 8, CON 21, INT 6, WIS 11, CHA 11;  AL Neutral
+HP 152, AC 2, THAC0 0, Saving Throws 4/6/5/4/7
 2 Attacks Per Round, 2d8+14 Crushing Damage (Fist +3)
 
 Special Qualities (12 & 16 Hit Dice):

@@ -706,49 +706,52 @@ COPY ~spell_rev\sppr5##\snakegsu.itm~     ~override~
 COPY ~spell_rev\sppr5##\sppr502.spl~     ~override~  // Cure Critial Wound (Cure Mortal Wounds (disabled at lvl 5))
   SAY NAME1 @153    SAY UNIDENTIFIED_DESC @154
 
-ADD_PROJECTILE ~spell_rev\projectles\dvflame.pro~
-COPY ~spell_rev\sppr5##\sppr503.spl~     ~override~  // Flame Strike
-  SAY NAME1 @155    SAY UNIDENTIFIED_DESC @156
-  SET "loop" = 7
-  WHILE (%loop% > 0) BEGIN
-    WRITE_SHORT (0x98 + 0x28 * (%loop% - 1) ) %dvflame%
-    SET "loop" = %loop% - 1
-  END
-COPY ~spell_rev\sppr5##\scrl62.itm~     ~override~
-  SAY NAME2 @155    SAY IDENTIFIED_DESC   @156
+//ADD_PROJECTILE ~spell_rev\projectles\dvflame.pro~
+//COPY ~spell_rev\sppr5##\sppr503.spl~     ~override~  // Flame Strike
+//  SAY NAME1 @155    SAY UNIDENTIFIED_DESC @156
+//  SET "loop" = 7
+//  WHILE (%loop% > 0) BEGIN
+//    WRITE_SHORT (0x98 + 0x28 * (%loop% - 1) ) %dvflame%
+//    SET "loop" = %loop% - 1
+//  END
+//COPY ~spell_rev\sppr5##\scrl62.itm~     ~override~
+//  SAY NAME2 @155    SAY IDENTIFIED_DESC   @156
 
-COPY ~spell_rev\sppr5##\sppr504.spl~     ~override~  // Raise Dead 
-  SAY NAME1 @157    SAY UNIDENTIFIED_DESC @158
-COPY ~spell_rev\sppr5##\scrl63.itm~     ~override~
-  SAY NAME2 @157    SAY IDENTIFIED_DESC   @158
+//COPY ~spell_rev\sppr5##\sppr504.spl~     ~override~  // Raise Dead 
+//  SAY NAME1 @157    SAY UNIDENTIFIED_DESC @158
+//COPY ~spell_rev\sppr5##\scrl63.itm~     ~override~
+//  SAY NAME2 @157    SAY IDENTIFIED_DESC   @158
 
-COPY ~spell_rev\sppr5##\sppr505.spl~     ~override~  // True Seeing
-  SAY NAME1 @159    SAY UNIDENTIFIED_DESC @160
-COPY ~spell_rev\sppr5##\sppr505d.spl~     ~override~
-  SAY NAME1 @159
+//COPY ~spell_rev\sppr5##\sppr505.spl~     ~override~  // True Seeing
+//  SAY NAME1 @159    SAY UNIDENTIFIED_DESC @160
+//COPY ~spell_rev\sppr5##\sppr505d.spl~     ~override~
+//  SAY NAME1 @159
 
-COPY ~spell_rev\sppr5##\sppr506.spl~     ~override~  // Iron Skins
-  SAY NAME1 @161    SAY UNIDENTIFIED_DESC @162
+//COPY ~spell_rev\sppr5##\sppr506.spl~     ~override~  // Iron Skins
+//  SAY NAME1 @161    SAY UNIDENTIFIED_DESC @162
 
 COPY ~spell_rev\sppr5##\sppr507.spl~     ~override~  // Champion's Strength
   SAY NAME1 @163    SAY UNIDENTIFIED_DESC @164
 COPY ~spell_rev\sppr5##\scrl5e.itm~     ~override~
   SAY NAME2 @163    SAY IDENTIFIED_DESC   @164
 
-COPY ~spell_rev\sppr5##\sppr508.spl~     ~override~  // Chaotic Commands
-  SAY NAME1 @165    SAY UNIDENTIFIED_DESC @166
-COPY ~spell_rev\sppr5##\scrl5f.itm~     ~override~
-  SAY NAME2 @165    SAY IDENTIFIED_DESC   @166
+//COPY ~spell_rev\sppr5##\sppr508.spl~     ~override~  // Chaotic Commands
+//  SAY NAME1 @165    SAY UNIDENTIFIED_DESC @166
+//COPY ~spell_rev\sppr5##\scrl5f.itm~     ~override~
+//  SAY NAME2 @165    SAY IDENTIFIED_DESC   @166
 
 COPY ~spell_rev\sppr5##\sppr509.spl~     ~override~  // Magic Resistance
   SAY NAME1 @167    SAY UNIDENTIFIED_DESC @168
 
-COPY ~spell_rev\sppr5##\sppr510.spl~     ~override~  // Cause Mortal Wounds (disabled at lvl 5)
-  SAY NAME1 @169    SAY UNIDENTIFIED_DESC @170
+COPY ~spell_rev\sppr5##\sppr510.spl~     ~override~  // Cause Critical wound (Cause Mortal Wounds (disabled at lvl 5))
+//  SAY NAME1 @169    SAY UNIDENTIFIED_DESC @170
+  SAY NAME1 @137    SAY UNIDENTIFIED_DESC @138
+COPY ~spell_rev\sppr5##\critical.itm~     ~override~
 
 COPY ~spell_rev\sppr5##\sppr511.spl~     ~override~  // Slay Living
   SAY NAME1 @171    SAY UNIDENTIFIED_DESC @172
 COPY ~spell_rev\sppr5##\slaylive.itm~     ~override~
+COPY ~spell_rev\sppr5##\sppr511d.spl~     ~override~
 
 ADD_PROJECTILE ~spell_rev\projectles\dvgcommd.pro~
 COPY ~spell_rev\sppr5##\sppr512.spl~     ~override~  // Greater Command
@@ -764,10 +767,10 @@ COPY ~spell_rev\sppr5##\sppr512g.spl~     ~override~
 COPY ~spell_rev\sppr5##\sppr512h.spl~     ~override~
 COPY ~spell_rev\sppr5##\sppr512i.spl~     ~override~
 
-COPY ~spell_rev\sppr5##\sppr513.spl~     ~override~  // Righteous Fury (previously named Righteous Magic)
-  SAY NAME1 @175    SAY UNIDENTIFIED_DESC @176
-COPY ~spell_rev\sppr5##\dvmgchit.eff~     ~override~  // 1d6 magic damage on hit
-STRING_SET ~8272~ @133 // change portrait icon name into Righteous Fury
+//COPY ~spell_rev\sppr5##\sppr513.spl~     ~override~  // Righteous Fury (previously named Righteous Magic)
+//  SAY NAME1 @175    SAY UNIDENTIFIED_DESC @176
+//COPY ~spell_rev\sppr5##\dvmgchit.eff~     ~override~  // 1d6 magic damage on hit
+//STRING_SET ~8272~ @133 // change portrait icon name into Righteous Fury
 
 ADD_PROJECTILE ~spell_rev\projectles\dvmscure.pro~
 COPY ~spell_rev\sppr5##\sppr514.spl~     ~override~  // Mass Cure
@@ -778,40 +781,40 @@ COPY ~spell_rev\sppr5##\sppr514.spl~     ~override~  // Mass Cure
     SET "loop" = %loop% - 1
   END
 
-COPY ~spell_rev\sppr5##\sppr515.spl~     ~override~  // Undead Ward (disabled at lvl 5, active at lvl 3)
+//COPY ~spell_rev\sppr5##\sppr515.spl~     ~override~  // Undead Ward (disabled at lvl 5, active at lvl 3)
 
-COPY ~spell_rev\sppr5##\sppr516.spl~     ~override~  // Pixie Dust
-  SAY NAME1 @179    SAY UNIDENTIFIED_DESC @180
+//COPY ~spell_rev\sppr5##\sppr516.spl~     ~override~  // Pixie Dust
+//  SAY NAME1 @179    SAY UNIDENTIFIED_DESC @180
 
-COPY ~spell_rev\sppr5##\sppr517.spl~     ~override~  // Insect Plague
-  SAY NAME1 @181    SAY UNIDENTIFIED_DESC @182
-COPY ~spell_rev\sppr5##\sppr517a.spl~     ~override~
-COPY ~spell_rev\sppr5##\sppr517b.spl~     ~override~
+//COPY ~spell_rev\sppr5##\sppr517.spl~     ~override~  // Insect Plague
+//  SAY NAME1 @181    SAY UNIDENTIFIED_DESC @182
+//COPY ~spell_rev\sppr5##\sppr517a.spl~     ~override~
+//COPY ~spell_rev\sppr5##\sppr517b.spl~     ~override~
 
 COPY ~spell_rev\sppr5##\sppr519.spl~     ~override~  // Polymorph Other (added to druid's spells)
   SAY NAME1 @185    SAY UNIDENTIFIED_DESC @186
 COPY ~spell_rev\sppr5##\dvsquir.itm~     ~override~
 
-COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
-  SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
+//COPY ~spell_rev\sppr5##\sppr520.spl~     ~override~  // Protection from Acid (added to priest's spells)
+//  SAY NAME1 @187    SAY UNIDENTIFIED_DESC @188
 
-COPY ~spell_rev\sppr5##\sppr521.spl~     ~override~  // Protection from Cold (added to priest's spells)
-  SAY NAME1 @189    SAY UNIDENTIFIED_DESC @190
+//COPY ~spell_rev\sppr5##\sppr521.spl~     ~override~  // Protection from Cold (added to priest's spells)
+//  SAY NAME1 @189    SAY UNIDENTIFIED_DESC @190
 
-COPY ~spell_rev\sppr5##\sppr522.spl~     ~override~  // Protection from Electricity (disabled at lvl 4, active at lvl 5)
-  SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
+//COPY ~spell_rev\sppr5##\sppr522.spl~     ~override~  // Protection from Electricity (disabled at lvl 4, active at lvl 5)
+//  SAY NAME1 @123    SAY UNIDENTIFIED_DESC @124
 
-COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
-  SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
+//COPY ~spell_rev\sppr5##\sppr523.spl~     ~override~  // Protection from Fire (disabled at lvl 3, active at lvl 5)
+//  SAY NAME1 @81    SAY UNIDENTIFIED_DESC @82
 
-COPY ~spell_rev\sppr5##\spja01.spl~     ~override~  // Harper's Call
-  SAY NAME1 @2157    SAY UNIDENTIFIED_DESC @2158
-COPY ~spell_rev\sppr5##\spja01a.eff~     ~override~
-COPY ~spell_rev\sppr5##\spja01b.eff~     ~override~
-COPY ~spell_rev\sppr5##\spja01c.eff~     ~override~
-COPY ~spell_rev\sppr5##\spja01d.eff~     ~override~
-COPY ~spell_rev\sppr5##\spja01e.eff~     ~override~
-COPY ~spell_rev\sppr5##\spja01f.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01.spl~     ~override~  // Harper's Call
+//  SAY NAME1 @2157    SAY UNIDENTIFIED_DESC @2158
+//COPY ~spell_rev\sppr5##\spja01a.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01b.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01c.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01d.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01e.eff~     ~override~
+//COPY ~spell_rev\sppr5##\spja01f.eff~     ~override~
 
 /*-----------------------level 6-----------------------*/
 
@@ -820,13 +823,20 @@ COPY ~spell_rev\sppr6##\sppr601.spl~     ~override~  // Aerial Servant
 COPY ~spell_rev\sppr6##\servsu.cre~     ~override~
 COPY ~spell_rev\sppr6##\servsu.itm~     ~override~
 
-COPY ~spell_rev\sppr6##\sppr602.spl~     ~override~  // Animal Summoning III
+/*COPY ~spell_rev\sppr6##\sppr602.spl~     ~override~  // Animal Summoning III
   SAY NAME1 @193    SAY UNIDENTIFIED_DESC @194
 COPY ~spell_rev\sppr6##\beardisu.eff~     ~override~
 COPY ~spell_rev\sppr6##\beardisu.cre~     ~override~
   SAY NAME1 @1041
   SAY NAME2 @1041
 COPY ~spell_rev\sppr6##\beardisu.itm~     ~override~
+*/
+
+COPY ~spell_rev\sppr6##\sppr602.spl~     ~override~  // Animal Summoning III
+  SAY NAME1 @193    SAY UNIDENTIFIED_DESC @194
+COPY ~spell_rev\sppr6##\bearcasu.eff~     ~override~
+COPY ~spell_rev\sppr6##\bearcasu.cre~     ~override~
+COPY ~spell_rev\sppr6##\bearcasu.itm~     ~override~
 
 COPY ~spell_rev\sppr6##\sppr603.spl~     ~override~  // Blade Barrier
   SAY NAME1 @195    SAY UNIDENTIFIED_DESC @196

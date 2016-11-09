@@ -80,6 +80,31 @@ sppr418 - Ice storm		: V3 added
 
 sppr501 - Animal Summoning II	: V4, upgrade at lvl 12 instead of 11
 sppr502 - Cure critical wound	: V3 (rename from sppr401)
+sppr503 - Flame strike		: Vanilla
+sppr504 - Raise Dead		: Vanilla
+sppr505 - True seeing		: Vanilla
+sppr506 - Ironskin		: Vanilla
+sppr507 - Champion's strength	: Custom
+sppr508 - Chaotic commands	: Vanilla
+sppr509 - Magic Resistance	: V3
+sppr510 - Cause critical wound	: V3 (renamed from sppr414)
+sppr511 - Slay living		: V4, change save -4 vs spell to save vs death
+sppr512 - Greater command	: V3
+sppr513 - Righteous Magic	: Vanilla
+sppr514 - Mass cure		: V3
+sppr515 - Repluse Undead	: Vanilla
+sppr516 - Pixie Dust		: Vanilla
+sppr517 - Insect plague		: Vanilla
+sppr519 - Polymorph others	: V3 added
+sprja01 - Harper's call		: Vanilla
+
+sppr601 - Aerial servant	: V4
+sppr602 - Animal Summoning	: V4
+sppr603 - Blade Barrier		: V3, save from breath at to spell
+sppr604 - Conjure animal	: V3 = disabled
+sppr605 - Conjure Fire Elem	: V4
+sppr621 - Conjure Air Elem	: V4
+sppr622 - Conjure Earth Elem	: V4
 
 
 === Arcane ===
@@ -198,8 +223,8 @@ spwi516 - Conj lesser fire elem	: V3
 spwi517 - Pro from acid		: Vanilla
 spwi518 - Phantom Blade		: V3, with spell failure chance lower to 50%
 spwi519 - Spell shield		: Vanilla
-spwi520 - Conj lesser air elem  : V3
-spwi521 - Conj lesser earth elem: V3
+spwi520 - Conj lesser air elem  : V4
+spwi521 - Conj lesser earth elem: V4
 spwi522 - Minor spell turning	: Vanilla
 spwi523 - Sunfire		: Vanilla, with save at -4 instead of 0
 
@@ -221,9 +246,9 @@ spwi616 - Disintegrate		: V4
 spwi617 - Contingency		: Vanilla
 spwi618 - Spell Deflection	: Vanilla
 spwi619 - Wywern call		: V4
-spwi620 - Conj fire elem	: V3
-spwi621 - Conj air elem		: V3
-spwi622 - Conj earth elem	: V3
+spwi620 - Conj fire elem	: V4
+spwi621 - Conj air elem		: V4
+spwi622 - Conj earth elem	: V4
 spwi623 - carrion -> Create undead:V3
 spwi624 - Summon Nishruu	: V3
 spwi625 - Stone to flesh	: Vanilla
