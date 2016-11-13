@@ -121,6 +121,22 @@ sppr701 - Shield of the Archon	: Vanilla
 sppr702 - Summon Shambling Mound: V4
 sppr703 - Summon Death Knight	: V4
 sppr704 - Nature's Beauty	: V3, slay effect has save at +3 instead of no bonus
+sppr705 - Fire storm		: Vanilla
+sppr706 - Symbol of Weakness	: V3
+sppr707 - Sunray		: V3
+sppr708 - Finger of death	: Vanilla
+sppr709 - Confusion -> Chaos	: V4
+sppr710 - Holy word		: V4, decrease effected level
+sppr711 - Regeneration		: V4
+sppr712 - Resurrection		: Vanilla
+sppr713 - Greater Restoration	: V3
+sppr715 - Unholy word		: V4
+sppr717 - Creeping Doom		: Vanilla
+sppr718 - Symbol of stunning	: V4
+sppr719 - Symbol of death	: V4
+sppr720 - Earthquake		: V3
+sppr716 - Animal Summoning IV	: V4 added
+
 
 === Arcane ===
 spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
@@ -300,4 +316,13 @@ spwi808 - Improve Mentle	: V3
 spwi809 - Spell Trigger		: Vanilla
 spwi810 - Incendiary Cloud	: Vanilla
 spwi811 - Symbol, Fear		: Vanilla
+spwi812 - Abi-Dalzim's		: V3 with save at -4 instead of -6
+spwi813 - Maze			: Vanilla
+spwi815 - Power word, Blind	: Vanilla
+spwi816 - Symbol of stunning	: V3 
+spwi817 - Symbol of Death	: V3
+spwi818 - Biggy's clenched fist : V3, duration is 8 instead of 6, save at -4 instead of -6
+
+spwi902 - Spell trap		: V3
+
 

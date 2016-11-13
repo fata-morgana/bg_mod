@@ -949,11 +949,11 @@ COPY ~spell_rev\sppr7##\sppr704.spl~     ~override~  // Nature's Beauty
   SAY NAME1 @237    SAY UNIDENTIFIED_DESC @238
   WRITE_SHORT 0x98 %dvnatbty%
 
-COPY ~spell_rev\sppr7##\sppr705.spl~     ~override~  // Fire Storm
-  SAY NAME1 @239    SAY UNIDENTIFIED_DESC @240
-COPY ~spell_rev\sppr7##\dvfirest.eff~     ~override~
-COPY ~spell_rev\sppr7##\sppr705d.spl~     ~override~
-COPY ~spell_rev\sppr7##\sppr705e.spl~     ~override~
+//COPY ~spell_rev\sppr7##\sppr705.spl~     ~override~  // Fire Storm
+//  SAY NAME1 @239    SAY UNIDENTIFIED_DESC @240
+//COPY ~spell_rev\sppr7##\dvfirest.eff~     ~override~
+//COPY ~spell_rev\sppr7##\sppr705d.spl~     ~override~
+//COPY ~spell_rev\sppr7##\sppr705e.spl~     ~override~
   
 COPY ~spell_rev\sppr7##\sppr706.spl~     ~override~  // Symbol of Weakness
   SAY NAME1 @241    SAY UNIDENTIFIED_DESC @242
@@ -965,8 +965,8 @@ COPY ~spell_rev\sppr7##\sppr707.spl~     ~override~  // Sunray
 COPY ~spell_rev\sppr7##\sppr707f.spl~     ~override~
 COPY ~spell_rev\sppr7##\sppr707.eff~     ~override~
 
-COPY ~spell_rev\sppr7##\sppr708.spl~     ~override~  // Finger of Death
-  SAY NAME1 @245    SAY UNIDENTIFIED_DESC @246
+//COPY ~spell_rev\sppr7##\sppr708.spl~     ~override~  // Finger of Death
+//  SAY NAME1 @245    SAY UNIDENTIFIED_DESC @246
 
 ADD_PROJECTILE ~spell_rev\projectles\dvschaos.pro~
 COPY ~spell_rev\sppr7##\sppr709.spl~     ~override~  // Sphere of Chaos (replaces Confusion)
@@ -980,8 +980,8 @@ COPY ~spell_rev\sppr7##\dvhoword.eff~     ~override~
 COPY ~spell_rev\sppr7##\sppr711.spl~     ~override~  // Regeneration
   SAY NAME1 @249    SAY UNIDENTIFIED_DESC @250
 
-COPY ~spell_rev\sppr7##\sppr712.spl~     ~override~  // Resurrection
-  SAY NAME1 @251    SAY UNIDENTIFIED_DESC @252
+//COPY ~spell_rev\sppr7##\sppr712.spl~     ~override~  // Resurrection
+//  SAY NAME1 @251    SAY UNIDENTIFIED_DESC @252
 
 COPY ~spell_rev\sppr7##\sppr713.spl~     ~override~  // Greater Restoration
   SAY NAME1 @253    SAY UNIDENTIFIED_DESC @254
@@ -990,10 +990,10 @@ COPY ~spell_rev\sppr7##\sppr715.spl~     ~override~  // Unholy Word
   SAY NAME1 @255    SAY UNIDENTIFIED_DESC @256
 COPY ~spell_rev\sppr7##\dvunword.eff~     ~override~
 
-COPY ~spell_rev\sppr7##\sppr717.spl~     ~override~  // Creeping Doom
-  SAY NAME1 @257    SAY UNIDENTIFIED_DESC @258
-COPY ~spell_rev\sppr7##\sppr717a.spl~     ~override~
-COPY ~spell_rev\sppr7##\sppr717b.spl~     ~override~
+//COPY ~spell_rev\sppr7##\sppr717.spl~     ~override~  // Creeping Doom
+//  SAY NAME1 @257    SAY UNIDENTIFIED_DESC @258
+//COPY ~spell_rev\sppr7##\sppr717a.spl~     ~override~
+//COPY ~spell_rev\sppr7##\sppr717b.spl~     ~override~
 
 COPY ~spell_rev\sppr7##\sppr718.spl~     ~override~  // Symbol of Stunning
   SAY NAME1 @259    SAY UNIDENTIFIED_DESC @260
@@ -1008,6 +1008,14 @@ COPY ~spell_rev\sppr7##\sppr720.spl~     ~override~  // Earthquake
 COPY ~spell_rev\sppr7##\sppr720d.spl~     ~override~
 COPY ~spell_rev\sppr7##\sppr720e.spl~     ~override~
 COPY ~spell_rev\sppr7##\dvquake.eff~     ~override~
+
+COPY ~spell_rev\sppr7##\sppr716.spl~     ~override~  // Animal Summoning VII
+  SAY NAME1 @331    SAY UNIDENTIFIED_DESC @332
+COPY ~spell_rev\sppr7##\bearposu.eff~     ~override~
+COPY ~spell_rev\sppr7##\bearposu.cre~     ~override~
+  SAY NAME1 @1042
+  SAY NAME2 @1042
+COPY ~spell_rev\sppr7##\bearposu.itm~     ~override~
 
 
 /*-----------------------level 8-----------------------*/
@@ -2366,18 +2374,18 @@ COPY ~spell_rev\spwi8##\scrl9g.itm~     ~override~
   SAY NAME2 @787    SAY IDENTIFIED_DESC   @788
 COPY ~spell_rev\spwi8##\dvhorrid.eff~     ~override~
 
-COPY ~spell_rev\spwi8##\spwi813.spl~     ~override~  // Maze
-  SAY NAME1 @789    SAY UNIDENTIFIED_DESC @790
-COPY ~spell_rev\spwi8##\scrl9h.itm~     ~override~
-  SAY NAME2 @789    SAY IDENTIFIED_DESC   @790
+//COPY ~spell_rev\spwi8##\spwi813.spl~     ~override~  // Maze
+//  SAY NAME1 @789    SAY UNIDENTIFIED_DESC @790
+//COPY ~spell_rev\spwi8##\scrl9h.itm~     ~override~
+//  SAY NAME2 @789    SAY IDENTIFIED_DESC   @790
 
-COPY ~spell_rev\spwi8##\spwi815.spl~     ~override~  // Power Word Blind
-  SAY NAME1 @791    SAY UNIDENTIFIED_DESC @792
-COPY ~spell_rev\spwi8##\scrl9j.itm~     ~override~
-  SAY NAME2 @791    SAY IDENTIFIED_DESC   @792
-COPY_EXISTING ~holdsumm.pro~ ~override~
-  WRITE_SHORT 0x204 110
-  WRITE_SHORT 0x206 110
+//COPY ~spell_rev\spwi8##\spwi815.spl~     ~override~  // Power Word Blind
+//  SAY NAME1 @791    SAY UNIDENTIFIED_DESC @792
+//COPY ~spell_rev\spwi8##\scrl9j.itm~     ~override~
+//  SAY NAME2 @791    SAY IDENTIFIED_DESC   @792
+//COPY_EXISTING ~holdsumm.pro~ ~override~
+//  WRITE_SHORT 0x204 110
+//  WRITE_SHORT 0x206 110
 
 COPY ~spell_rev\spwi8##\spwi816.spl~     ~override~  // Symbol of Stunning
   SAY NAME1 @793    SAY UNIDENTIFIED_DESC @794
