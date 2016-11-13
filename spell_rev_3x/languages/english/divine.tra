@@ -1604,9 +1604,9 @@ Casting Time: 6
 Area of Effect: Special
 Saving Throw: Breath half
 
-This spell enables the druid to create a number of fire seeds, one for every 3 experience levels the druid has attained (up to a maximum of 6 fire seeds at 18th level). When thrown at an enemy, these will explode into small fireballs, causing 4d6 points of damage to all within a 10 foot radius (save vs. breath at -5 for half damage). The seeds are treated as missiles hurled by the caster with a +4 bonus to the attack roll and each has an enchantment level of +6. These seeds will appear in the caster's hands and remain in existence for 4 turns. The druid may discharge two of them per round.~
+This spell enables the druid to create a number of fire seeds, one for every 3 experience levels the druid has attained (up to a maximum of 6 fire seeds at 18th level). When thrown at an enemy, these will explode into small fireballs, causing 4d6 points of damage to all within a 10 foot radius (save vs. spell at -2 for half damage). The seeds are treated as missiles hurled by the caster with a +4 bonus to the attack roll and each has an enchantment level of +6. These seeds will appear in the caster's hands and remain in existence for 4 turns. The druid may discharge three of them per round.~
 
-@1039=~Created by the Fire Seeds spell. When thrown at an enemy, these will explode into small fireballs, causing 4d6 damage to everyone within a 10 foot radius, with a saving throw vs. breath at -5 allowed for half damage.~
+@1039=~Created by the Fire Seeds spell. When thrown at an enemy, these will explode into small fireballs, causing 4d6 damage to everyone within a 10 foot radius, with a saving throw vs. spell at -2 allowed for half damage.~
 
 @203=~Heal~
 @204=~Heal
@@ -1625,14 +1625,14 @@ The very potent Heal spell enables the priest to wipe away any injury in the cre
 @206=~Harm
 Level: 6
 School: Necromancy
-Sphere: Healing
+Sphere: Necromantic
 Range: Personal
 Duration: 1 turn
 Casting Time: 1 round
 Area of Effect: 1 creature
 Saving Throw: Spell half
 
-This spell is the reverse of Heal. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 150 points of magic damage upon the target. If the creature successfully saves vs. spell at -5, Harm will deal half this amount. The spell expires once the priest attempts a melee attack or after one turn has passed. The priest gains a +4 bonus to hit the target.~
+This spell is the reverse of Heal. Instead of healing the creature touched, it causes damage. On a successful touch from the priest, the spell inflicts 99 points of damage upon the target. Harm cannot reduce the target's hit points to less than 1. The spell expires once the priest makes a successful melee attack or after 1 turn has passed. The priest gains a +4 bonus to hit the target. Magic resistance does not affect this spell.~
 
 @207=~False Dawn~
 @208=~False Dawn

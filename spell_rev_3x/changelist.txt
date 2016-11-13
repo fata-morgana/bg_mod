@@ -103,9 +103,24 @@ sppr602 - Animal Summoning	: V4
 sppr603 - Blade Barrier		: V3, save from breath at to spell
 sppr604 - Conjure animal	: V3 = disabled
 sppr605 - Conjure Fire Elem	: V4
+sppr606 - Fire Seed		: V3, 3 apr instead of 2, save -4 vs spell instead of -5 vs breath
+sppr607 - Heal			: Vanilla
+sppr608 - Harm			: V4, damage is 99 instead of 90
+sppr609 - False Dawn		: V4
+sppr610 - Dolorous Decay	: V4
+sppr611 - Wondrous Recall	: Vanilla
+sppr612 - Bolt of glory		: V4
+sppr613 - Physical Mirror	: V3
+sppr614 - Sol's Searing Orb	: Vanilla
+sppr620 - Control Undead	: V3 added
 sppr621 - Conjure Air Elem	: V4
 sppr622 - Conjure Earth Elem	: V4
+sppr623 - Create Undead		: V3
 
+sppr701 - Shield of the Archon	: Vanilla
+sppr702 - Summon Shambling Mound: V4
+sppr703 - Summon Death Knight	: V4
+sppr704 - Nature's Beauty	: V3, slay effect has save at +3 instead of no bonus
 
 === Arcane ===
 spwi101 - Grease		: V3 with vanilla save, increase movement rate if saved
@@ -219,7 +234,7 @@ spwi512 - Pro from electricity	: Vanilla
 spwi513 - Breach		: Vanilla
 spwi514 - Lower resistance	: V3
 spwi515 - Oracle		: Vanilla
-spwi516 - Conj lesser fire elem	: V3
+spwi516 - Conj lesser fire elem	: V4
 spwi517 - Pro from acid		: Vanilla
 spwi518 - Phantom Blade		: V3, with spell failure chance lower to 50%
 spwi519 - Spell shield		: Vanilla
@@ -258,7 +273,7 @@ spwi702 - Pro from the elements	: Vanilla
 spwi703 - Project image		: Vanilla
 spwi704 - Ruby ray of reversal  : Vanilla
 spwi705 - Khelben's warding whip: Vanilla
-spwi707 - Summon Death Knight	: V3
+spwi707 - Summon Death Knight	: V4
 spwi708 - Mantle		: V3
 spwi710 - Spell Sequencer	: Vanilla
 spwi711 - Sphere of chaos	: V4

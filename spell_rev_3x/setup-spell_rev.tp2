@@ -859,12 +859,13 @@ COPY_EXISTING ~bolt2.pro~ ~override~
   WRITE_SHORT 0x204 110
   WRITE_SHORT 0x206 110
 
-COPY ~spell_rev\sppr6##\sppr607.spl~     ~override~  // Heal
-  SAY NAME1 @203    SAY UNIDENTIFIED_DESC @204
+//COPY ~spell_rev\sppr6##\sppr607.spl~     ~override~  // Heal
+//  SAY NAME1 @203    SAY UNIDENTIFIED_DESC @204
 
 COPY ~spell_rev\sppr6##\sppr608.spl~     ~override~  // Harm
   SAY NAME1 @205    SAY UNIDENTIFIED_DESC @206
 COPY ~spell_rev\sppr6##\harm.itm~     ~override~
+COPY ~spell_rev\sppr6##\sppr608d.spl~     ~override~
 
 COPY ~spell_rev\sppr6##\sppr609.spl~     ~override~  // False Dawn
   SAY NAME1 @207    SAY UNIDENTIFIED_DESC @208
@@ -881,8 +882,8 @@ COPY ~spell_rev\sppr6##\sppr610.spl~     ~override~  // Dolorous Decay
   SAY NAME1 @209    SAY UNIDENTIFIED_DESC @210
 COPY ~spell_rev\sppr6##\dvddecay.eff~     ~override~
 
-COPY ~spell_rev\sppr6##\sppr611.spl~     ~override~  // Wondrous Recall
-  SAY NAME1 @211    SAY UNIDENTIFIED_DESC @212
+//COPY ~spell_rev\sppr6##\sppr611.spl~     ~override~  // Wondrous Recall
+//  SAY NAME1 @211    SAY UNIDENTIFIED_DESC @212
 
 COPY ~spell_rev\sppr6##\sppr612.spl~     ~override~  // Bolt of Glory
   SAY NAME1 @213    SAY UNIDENTIFIED_DESC @214
@@ -894,7 +895,7 @@ COPY ~spell_rev\sppr6##\boltund.eff~     ~override~
 COPY ~spell_rev\sppr6##\sppr613.spl~     ~override~  // Physical Mirror
   SAY NAME1 @215    SAY UNIDENTIFIED_DESC @216
 
-COPY ~spell_rev\sppr6##\sppr614.spl~     ~override~  // Sol's Searing Orb
+/*COPY ~spell_rev\sppr6##\sppr614.spl~     ~override~  // Sol's Searing Orb
   SAY NAME1 @217    SAY UNIDENTIFIED_DESC @218
 COPY ~spell_rev\sppr6##\sorb.itm~     ~override~
 COPY ~spell_rev\sppr6##\sorb12.itm~     ~override~
@@ -912,7 +913,7 @@ COPY ~spell_rev\sppr6##\dvsol6d6.eff~     ~override~
 COPY ~spell_rev\sppr6##\dvsol7d6.eff~     ~override~
 COPY ~spell_rev\sppr6##\dvsol8d6.eff~     ~override~
 COPY ~spell_rev\sppr6##\dvsol9d6.eff~     ~override~
-COPY ~spell_rev\sppr6##\dvsol0d6.eff~     ~override~
+COPY ~spell_rev\sppr6##\dvsol0d6.eff~     ~override~*/
 
 COPY ~spell_rev\sppr6##\sppr620.spl~     ~override~  // Control Undead (added to cleric's spells)
   SAY NAME1 @223    SAY UNIDENTIFIED_DESC @224
@@ -929,8 +930,8 @@ COPY ~spell_rev\sppr6##\sppr623.spl~     ~override~  // Create Undead (added to 
 
 /*-----------------------level 7-----------------------*/
 
-COPY ~spell_rev\sppr7##\sppr701.spl~     ~override~  // Shield of the Archons
-  SAY NAME1 @231    SAY UNIDENTIFIED_DESC @232
+//COPY ~spell_rev\sppr7##\sppr701.spl~     ~override~  // Shield of the Archons
+//  SAY NAME1 @231    SAY UNIDENTIFIED_DESC @232
 
 COPY ~spell_rev\sppr7##\sppr702.spl~     ~override~  // Summon Shambling Mound (replaces Conjure Earth Elemental)
   SAY NAME1 @233    SAY UNIDENTIFIED_DESC @234
